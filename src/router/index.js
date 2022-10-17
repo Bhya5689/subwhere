@@ -1,22 +1,62 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
-import HeaderLayout from '../views/layout/HeaderLayout.vue'
+import HomeView from '../views/HomeView.vue'
+// import HeaderLayout from '../views/layout/HeaderLayout.vue'
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: HomeView
-  // },
   {
     path: '/',
-    name: 'header',
-    component: HeaderLayout
+    name: 'home',
+    component: HomeView
   },
+  // {
+  //   path: '/',
+  //   name: 'header',
+  //   component: HeaderLayout
+  // },
   {
     path: '/line1',
     name: 'line1',
-    component: () => import('../views/LineOne.vue')
+    component: () => import('../views/Line1One.vue')
+  },
+  {
+    path: '/line2',
+    name: 'line2',
+    component: () => import('../views/Line2Two.vue')
+  },
+  {
+    path: '/line3',
+    name: 'line3',
+    component: () => import('../views/Line3Three.vue')
+  },
+  {
+    path: '/line4',
+    name: 'line4',
+    component: () => import('../views/Line4Four.vue')
+  },
+  {
+    path: '/line5',
+    name: 'line5',
+    component: () => import('../views/Line5Five.vue')
+  },
+  {
+    path: '/line6',
+    name: 'line6',
+    component: () => import('../views/Line6Six.vue')
+  },
+  {
+    path: '/line7',
+    name: 'line7',
+    component: () => import('../views/Line7Seven.vue')
+  },
+  {
+    path: '/line8',
+    name: 'line8',
+    component: () => import('../views/Line8Eight.vue')
+  },
+  {
+    path: '/line9',
+    name: 'line9',
+    component: () => import('../views/Line9Nine.vue')
   }
   // {
   //   path: '/about',

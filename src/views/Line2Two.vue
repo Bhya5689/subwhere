@@ -1,3 +1,3 @@
 <template>
-    <h1>1호선</h1>
+    <h1>2호선</h1>
 </template>

@@ -13,10 +13,31 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link" href="/line1">1호선</a>
+            <router-link to="/line1">1호선</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <router-link to="/line2">2호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line3">3호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line4">4호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line5">5호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line6">6호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line7">7호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line8">8호선</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/line9">9호선</router-link>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
