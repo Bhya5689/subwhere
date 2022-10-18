@@ -5,7 +5,7 @@
         <g style="visibility: visible;">
             <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
             <g>
-                 <path class="mw-link" d="M1500,70 L1230,200" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
+                 <path class="mw-link" d="M2000,500L1230,200" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
             </g>
             </g>
         </svg>
