@@ -6,7 +6,7 @@
             <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
             <g>
                  <path class="mw-link"  d="M1020,760L1020,800"  data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 3;"></path>
-                 <path class="mw-link"  d="M1020,760L1040,800"  data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 3;"></path>
+                 <path class="mw-link"  d="L1020,760M1040,800"  data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 3;"></path>
             </g>
             </g>
         </svg>
