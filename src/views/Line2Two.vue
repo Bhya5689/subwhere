@@ -8,13 +8,7 @@
                     <path class="mw-link" d="M727.5,491.5L753,517" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                     <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                     <path class="mw-link" d="M660.5,491.5L727.5,491.5" data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-
+                    <path class="mw-link" d="M333.5,22.5L333.5,164.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                 </g>
             </g>
         </svg>
