@@ -7,6 +7,7 @@
             <g>
                  <path class="mw-link"  d="M1020,760L1020,800"  data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 30;"></path>
                  <path class="mw-link"  d="M1020,800L1060,860"  data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 30;"></path>
+                 <path class="mw-link"  d="M1060,860L1100,920"  data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(102, 204, 102); stroke-width: 30;"></path>
             </g>
             </g>
         </svg>
