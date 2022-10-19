@@ -122,6 +122,7 @@
                         <g class="mw-transfer" transform="translate(665, 792)" data-id="k2069wwy" data-type="transfer" data-lines="1001,1093" data-stations="532,k205yncg"><g transform="rotate(0)"><rect x="-10" y="-8" width="20" height="16" rx="5" style="fill: rgb(255, 255, 255); stroke: black;"></rect><rect width="7" height="10" x="-7" y="-5" rx="2" style="fill: rgb(20, 104, 190);"></rect><rect width="7" height="10" x="0" y="-5" rx="2" style="fill: rgb(130, 195, 31);"></rect></g><text transform="rotate(0)" style="text-anchor: middle; font-size: 14px; fill: rgb(0, 0, 0);"><tspan x="2" y="-12">소사</tspan></text>
                     </g>
                 </g>
+            </g>
         </svg>
     </div>
 </template>
