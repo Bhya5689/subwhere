@@ -5,8 +5,8 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-                    <line class="st1" x1="671.6" y1="560.4" x2="693.6" y2="582.4" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"/>
-                    <line class="st1" x1="707.5" y1="582.5" x2="694.5" y2="582.5" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"/>
+                    <line class="st1" x1="671.6" y1="560.4" x2="693.6" y2="582.4" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 22;"/>
+                    <line class="st1" x1="707.5" y1="582.5" x2="694.5" y2="582.5" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 20;"/>
                 </g>
             </g>
         </svg>
