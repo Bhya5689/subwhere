@@ -5,9 +5,9 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-                    <path class="mw-link" d="M727.5,491.5L753,517" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
-                    <path class="mw-link" d="M660.5,491.5L727.5,491.5" data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
+                    <path class="mw-link" d="M727.5,491.5L753,517" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
+                    <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
+                    <path class="mw-link" d="M660.5,491.5L727.5,491.5" data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                     <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
                     <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
                     <path class="mw-link" d="M675.5,506.5L727.5,491.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 20;"></path>
