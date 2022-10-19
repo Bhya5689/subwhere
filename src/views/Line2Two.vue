@@ -17,7 +17,6 @@
                     <path class="mw-link" d="M815,558.5L835.8,537.8" data-id="10" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                     <path class="mw-link" d="M739,531.5.5L752.8,517.8" data-id="11" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                 </g>
-                </g>
             </g>
         </svg>
     </div>
