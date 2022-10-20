@@ -5,7 +5,7 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-                    <path class="st2" d="M326.5,680.5L526.5,680.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 50;"></path>
+                    <path class="st2" d="M-326.5,680.5L526.5,680.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 50;"></path>
                     <path class="st2" d="M526.5,680.5L726.5,680.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M726.5,680.5L926.5,680.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <!--<path class="mw-link" d="M666,731.5L666,605.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 50;"></path>
