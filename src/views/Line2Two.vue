@@ -27,7 +27,7 @@
                     <path class="mw-link" d="M855.5,492L890,492" data-id="28" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>-->
                     <g>
                         <circle cx="926.5" cy="680.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
-                        <circle cx="1126.5" cy="980.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
+                        <circle cx="1126.5" cy="750.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                     </g>
                 </g>
             </g>
