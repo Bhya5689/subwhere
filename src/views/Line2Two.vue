@@ -6,7 +6,7 @@
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
                     <path class="st2" d="M526.5,680.5L726.5,680.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
-                    <circle cx="100" cy="100" r="50" style="fill:lime;stroke:purple;stroke-width:3" /> 
+                    <circle cx="100" cy="100" r="50" style="fill:lime;stroke:purple;stroke-width:3"/> 
                     <path class="st2" d="M726.5,680.5L926.5,680.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <!--<path class="mw-link" d="M666,731.5L666,605.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 50;"></path>
                     <path class="mw-link" d="M576.5,680.5L576.5,595.5" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 50;"></path>
@@ -25,7 +25,6 @@
                     <!--<path class="mw-link" d="M669.5,501.7L886.5,501.7" data-id="25" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
                     <!--<path class="mw-link" d="M914.5,557L986.9,557" data-id="26" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
                     <path class="mw-link" d="M855.5,492L890,492" data-id="28" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>-->
-
                 </g>
             </g>
         </svg>
