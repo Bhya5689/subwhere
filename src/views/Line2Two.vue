@@ -5,8 +5,7 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-                    <path class="mw-link" d="M139,28L139,303.9" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
-                    
+                    <path class="mw-link" d="M337.5,928.5L337.5,954.5" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 76); stroke-width: 5;"></path>
                 </g>
             </g>
         </svg>
