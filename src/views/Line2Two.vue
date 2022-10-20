@@ -5,18 +5,6 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-                    <path class="mw-link" d="M273.5,621L592.5,621" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 10;"></path>
-                    <path class="mw-link" d="M646,1072L936.5,1072" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 10;"></path>
-                    <path class="mw-link" d="M899.2,30L1020.5,30" data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M921.5,66.5L950.5,66.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M899.5,42.5L921.2,42.5" data-id="5" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M1021.2,53.5L1021.2,30.5" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M950.5,66.5L950.5,59.5" data-id="7" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                </g>
-                <g>
-                    <path class="mw-link" d="M921.2,66.5L921.2,42.6" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
-                </g>
-                <g>
                     <path class="mw-link" d="M616,631.5L616,555.5" data-id="10" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 255, 255); stroke-width: 5;"></path>
                     <path class="mw-link" d="M526.5,580.5L526.5,545.5" data-id="11" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 255, 255); stroke-width: 5;"></path>
                     <path class="mw-link" d="M986.9,587.5L986.9,557.4" data-id="12" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 255, 255); stroke-width: 5;"></path>
