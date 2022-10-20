@@ -9,7 +9,8 @@
                     <path class="mw-link" d="M646,1072L936.5,1072" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 10;"></path>
                     <path class="mw-link" d="M899.2,30L1020.5,30" data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
                     <path class="mw-link" d="M921.5,66.5L950.5,66.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
-                    <path class="mw-link" d="M899.5,42.5L921.2,42.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
+                    <path class="mw-link" d="M899.5,42.5L921.2,42.5" data-id="5" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
+                    <path class="mw-link" d="M1021.2,53.5L1021.2,30.5" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
                 </g>
             </g>
         </svg>
