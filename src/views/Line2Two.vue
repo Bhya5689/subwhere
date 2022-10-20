@@ -5,17 +5,17 @@
             <g style="visibility: visible;">
                 <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
                 <g>
-	<line class="st1" x1="671.6" y1="560.4" x2="693.6" y2="582.4"/>
-</g>
-<g>
-	<line class="st1" x1="707.5" y1="582.5" x2="694.5" y2="582.5"/>
-</g>
-<g>
-	<line class="st1" x1="814.5" y1="582.5" x2="709.5" y2="582.5"/>
-</g>
-<g>
-	<line class="st2" x1="727.5" y1="491.5" x2="753" y2="517"/>
-</g>
+	                <line class="st1" x1="671.6" y1="560.4" x2="693.6" y2="582.4"/>
+                </g>
+                <g>
+                    <line class="st1" x1="707.5" y1="582.5" x2="694.5" y2="582.5"/>
+                </g>
+                <g>
+                    <line class="st1" x1="814.5" y1="582.5" x2="709.5" y2="582.5"/>
+                </g>
+                <g>
+                    <line class="st2" x1="727.5" y1="491.5" x2="753" y2="517"/>
+                </g>
             </g>
         </svg>
     </div>
