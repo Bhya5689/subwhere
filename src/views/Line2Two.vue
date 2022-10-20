@@ -16,6 +16,10 @@
                 <g>
                     <path class="mw-link" d="M921.2,66.5L921.2,42.6" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
                 </g>
+                <g>
+                    <path class="mw-link" d="M616,631.5L616,555.5" data-id="9" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 255, 255); stroke-width: 5;"></path>
+                    <path class="mw-link" d="M526.5,580.5L526.5,545.5" data-id="10" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 255, 255); stroke-width: 5;"></path>
+                </g>
             </g>
         </svg>
     </div>
