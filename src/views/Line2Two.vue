@@ -13,6 +13,9 @@
                     <path class="mw-link" d="M1021.2,53.5L1021.2,30.5" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 10;"></path>
                     <path class="mw-link" d="M950.5,66.5L950.5,59.5" data-id="7" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 10;"></path>
                 </g>
+                <g>
+                    <path class="mw-link" d="M921.2,66.5L921.2,42.6" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 0, 0); stroke-width: 5;"></path>
+                </g>
             </g>
         </svg>
     </div>
