@@ -11,6 +11,7 @@
                     <path class="mw-link" d="M921.5,66.5L950.5,66.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
                     <path class="mw-link" d="M899.5,42.5L921.2,42.5" data-id="5" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
                     <path class="mw-link" d="M1021.2,53.5L1021.2,30.5" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
+                    <path class="mw-link" d="M950.5,66.5L950.5,59.5" data-id="7" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(255, 255, 0); stroke-width: 10;"></path>
                 </g>
             </g>
         </svg>
