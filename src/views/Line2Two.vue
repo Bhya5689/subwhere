@@ -29,7 +29,7 @@
                         <circle cx="926.5" cy="680.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="1126.5" cy="780 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="1126.5" cy="563.25 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
-                        <circle cx="1126.5" cy="400 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
+                        <circle cx="1126.5" cy="200 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                     </g>
                 </g>
             </g>
