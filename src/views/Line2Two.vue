@@ -38,7 +38,6 @@
                         <circle cx="1600" cy="1400 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="1800" cy="1400 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                     </g>
-                    </g>
                 </g>
             </g>
         </svg>
