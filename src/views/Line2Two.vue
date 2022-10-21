@@ -15,10 +15,8 @@
                     <path class="st2" d="M1126.5,1400L1400,1400" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1400,1400L1600,1400" data-id="9" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1600,1400L1800,1400" data-id="10" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
-                    <!--<path class="mw-link" d="M616.5,631.5L642.5,631.5" data-id="16" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M889,531.5L889,502.5" data-id="17" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M616,555L669,502" data-id="18" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M819.8,631.5L819.8,618.5" data-id="19" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
+                    <path class="st2" d="M1800,1400L2000,1400" data-id="11" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
+                   
                     <!--<path class="mw-link" d="M957,618L987,588" data-id="20" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
                     <path class="mw-link" d="M914.3,557L889,531.7" data-id="21" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
                     <path class="mw-link" d="M910.7,512.3L890.3,492" data-id="22" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
