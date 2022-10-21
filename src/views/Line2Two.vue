@@ -36,7 +36,7 @@
                     <path class="st2" d="M3600,680L3600,480" data-id="29" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M3600,480L3600,280" data-id="30" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M3600,280L3600,000" data-id="31" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
-                    <path class="st2" d="M3600,280L3400,280" data-id="31" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
+                    <path class="st2" d="M3600,280L3400,000" data-id="31" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <g>
                         <circle cx="326.5" cy="780 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="326.5" cy="980 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
