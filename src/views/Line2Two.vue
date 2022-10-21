@@ -8,7 +8,7 @@
                     <path class="st2" d="M326.5,780L326.5,980" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M326.5,980L526.5,980" data-id="1" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M526.5,980L726.5,980" data-id="2" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
-                    <path class="st2" d="M726.5,680.5L926.5,780.5 " data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
+                    <path class="st2" d="M726.5,980L926.5,980 " data-id="3" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M926.5,780.5L926.5,980.5" data-id="4" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M926.5,780.5L926.5,580.5" data-id="5" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M926.5,580.5L926.5,380.5" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 30;"></path>
@@ -33,7 +33,7 @@
                     <path class="st2" d="M4000,400L4000,200" data-id="25" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M4000,200L4000,000" data-id="26" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <g>
-                        <circle cx="326.5" cy="780 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
+                        <circle cx="326.5" cy="780 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="326.5" cy="980 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="526.5" cy="980 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="726.5" cy="680.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
