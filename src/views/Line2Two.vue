@@ -12,7 +12,7 @@
                     <path class="st2" d="M1126.5,780.5L1126.5,300" data-id="5" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1126.5,980.5L1126.5,1200" data-id="6" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1126.5,1200L1126.5,1400" data-id="7" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0,  153, 0); stroke-width: 30;"></path>
-                    <path class="st2" d="M1126.5,1400L1400,1400" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
+                    <path class="st2" d="M1126.5,1400L1400" data-id="8" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1400,1000L1300,1400" data-id="9" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <!--<path class="mw-link" d="M616.5,631.5L642.5,631.5" data-id="16" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
                     <path class="mw-link" d="M889,531.5L889,502.5" data-id="17" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
