@@ -16,14 +16,6 @@
                     <path class="st2" d="M1400,1400L1600,1400" data-id="9" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1600,1400L1800,1400" data-id="10" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
                     <path class="st2" d="M1800,1400L2000,1400" data-id="11" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>
-                   
-                    <!--<path class="mw-link" d="M957,618L987,588" data-id="20" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M914.3,557L889,531.7" data-id="21" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M910.7,512.3L890.3,492" data-id="22" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
-                    <!--<path class="mw-link" d="M855.1,491.9L846.1,482.9" data-id="24" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
-                    <!--<path class="mw-link" d="M669.5,501.7L886.5,501.7" data-id="25" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>-->
-                    <!--<path class="mw-link" d="M914.5,557L986.9,557" data-id="26" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 5;"></path>
-                    <path class="mw-link" d="M855.5,492L890,492" data-id="28" data-type="link" data-line-id="1002" data-time="0" style="fill: none; stroke: rgb(0, 153, 0); stroke-width: 30;"></path>-->
                     <g>
                         <circle cx="926.5" cy="680.5 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="1126.5" cy="780 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
