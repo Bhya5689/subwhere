@@ -39,7 +39,7 @@
                         <circle cx="726.5" cy="980 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="926.5" cy="1080 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="926.5" cy="880 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
-                        <circle cx="926.5" cy="380.5 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
+                        <circle cx="926.5" cy="680 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="926.5" cy="980.5 " r="30" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="926.5" cy="1200 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="926.5" cy="1400 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
