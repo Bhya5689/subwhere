@@ -34,9 +34,7 @@
                         <circle cx="1126.5" cy="1200 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                         <circle cx="1126.5" cy="1400 " r="20" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle>
                     </g>
-                    <g>
-    
-                        <path class="mw-link" d="M530,695L525.8333333333334,691.6666666666666C521.6666666666666,688.3333333333334,513.3333333333334,681.6666666666666,505,678.3333333333334C496.6666666666667,675,488.3333333333333,675,484.1666666666667,675L480,675" data-id="1890" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
+                    <g>    
                         <path class="mw-link" d="M480,675L445,675" data-id="1891" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
                         <path class="mw-link" d="M445,675L405,675" data-id="1892" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
                         <path class="mw-link" d="M405,675L365,675" data-id="1893" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(20, 104, 190); stroke-width: 3;"></path>
