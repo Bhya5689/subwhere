@@ -1,8 +1,8 @@
 <template>
     <h1>9호선</h1>
-    <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" style="font-size: 12px; font-family: &quot;Nanum Goth240L200ic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px;  fill: red;" class="mw-subway">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" style="font-size: 12px; font-family: &quot;Nanum Goth240L200ic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px;  fill: red;" class="mw-subway">
         <g style="visibility: visible;">
-            <rect width="1800" height="1000" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
+            <rect width="1800" height="700" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
             <g>
                 <path class="mw-link" d="M250,240L325,240" data-id="9001" data-type="link" data-line-id="1009" data-time="0" style="fill: none; stroke: rgb(206, 164, 58); stroke-width: 20"></path>
                 <path class="mw-link" d="M325,240L400,240" data-id="9001" data-type="link" data-line-id="1009" data-time="0" style="fill: none; stroke: rgb(206, 164, 58); stroke-width: 20"></path>
