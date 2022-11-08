@@ -23,7 +23,7 @@
             <router-link to="/line3">3호선</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/line4">4호선</router-link>............................
+            <router-link to="/line4">4호선</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/line5">5호선</router-link>
