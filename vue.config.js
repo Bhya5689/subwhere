@@ -7,7 +7,7 @@ module.exports = defineConfig({
   indexPath: "../static/index.html",
   //SpringBoot 서버 접속 주소
   devServer: {
-    proxy: "http://localhost:8080"
+    proxy: "http://localhost:8081"
   },
   chainWebpack: config => {
     const svgRule = config.module.rule("svg");
