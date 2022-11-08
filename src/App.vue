@@ -56,7 +56,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
-  background-image: url()
 }
 
 nav {
@@ -74,3 +73,4 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
