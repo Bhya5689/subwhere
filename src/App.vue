@@ -2,7 +2,7 @@
   <nav>
   <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">SubWhere</a>
+    <a class="navbar-brand" href="/">SubWhereMap</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,7 +23,7 @@
             <router-link to="/line3">3호선</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/line4">4호선</router-link>
+            <router-link to="/line4">4호선</router-link>............................
           </li>
           <li class="nav-item">
             <router-link to="/line5">5호선</router-link>
@@ -56,6 +56,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
+  background-image: url()
 }
 
 nav {
