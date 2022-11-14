@@ -1,5 +1,12 @@
 <template>
     <h1>9호선</h1>
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" v-on:click="test111" name="btnradio" id="btnradio1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio1">상행선</label>
+
+             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">하행선</label>
+        </div>
     <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" style="font-size: 12px; font-family: &quot;Nanum Goth240L200ic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px;  fill: red;" class="mw-subway">
         <g style="visibility: visible;">
             <rect width="1800" height="700" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
@@ -46,19 +53,89 @@
                 <path class="mw-link" d="M1600,600L1675,600" data-id="9001" data-type="link" data-line-id="1009" data-time="0" style="fill: none; stroke: rgb(206, 164, 58); stroke-width: 20"></path>
 
                 <g class="mw-station" transform="translate(325, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000901" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">개화</tspan></text>
-                    <g updnLine-id="0" style="display: initial;">
-                        <g trainSttus-id="0" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
-                        </image><text style="font-size: 10px; fill: red;"><tspan x="-20" y="30">진입</tspan></text>
-                        <text style="font-size: 10px; fill: red;"><tspan x="10" y="15">급</tspan></text></g>
-                        <g  trainSttus-id="1" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(1);">
-                        </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="30">도착</tspan></text></g>
-                        <g  trainSttus-id="2" style="display:initial"><image href="@/assets/train.png" x="-40" y="30" style="transform: scaleX(1);">
+                        <g id="100900090100" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="5" y="45">급</tspan></text></g>
+                        <g id="100900090101" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="15" y="45">급</tspan></text></g>
+                        <g id="100900090102" style="display:none"><image href="@/assets/train.png" x="-40" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: black;"><tspan x="-40" y="30">출발</tspan></text>
-                        <text style="font-size: 10px; fill: red;"><tspan x="10" y="15">급</tspan></text></g>
-                    </g></g>
-                <g class="mw-station" transform="translate(400, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000902" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">김포공항</tspan></text></g>
-                <g class="mw-station" transform="translate(475, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000903" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">공항시장</tspan></text></g>
-                <g class="mw-station" transform="translate(550, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000904" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신방화</tspan></text></g>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="-15" y="45">급</tspan></text></g>
+
+                        <g id="100900090110" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="0" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-15" y="45">급</tspan></text></g>
+                        <g id="100900090111" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-25" y="45">급</tspan></text></g>
+                        <g id="100900090112" style="display:"><image href="@/assets/train.png" x="-50" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: black"><tspan x="30" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="15" y="45">급</tspan></text></g>
+                    </g>
+                <g class="mw-station" transform="translate(400, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000902" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">김포공항</tspan></text>
+                        <g id="00" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: red;"><tspan x="-20" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue;"><tspan x="5" y="45">급</tspan></text></g>
+                        <g id="01" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue;"><tspan x="15" y="45">급</tspan></text></g>
+                        <g id="02" style="display:none"><image href="@/assets/train.png" x="-40" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: black;"><tspan x="-40" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="-15" y="45">급</tspan></text></g>
+
+                        <g id="10" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: red;"><tspan x="0" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue;"><tspan x="-15" y="45">급</tspan></text></g>
+                        <g id="11" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue;"><tspan x="-25" y="45">급</tspan></text></g>
+                        <g id="12" style="display:none"><image href="@/assets/train.png" x="-50" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: black;"><tspan x="30" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="15" y="45">급</tspan></text></g>
+                    </g>
+                <g class="mw-station" transform="translate(475, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000903" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">공항시장</tspan></text>
+                        <g id="100900090100" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="5" y="45">급</tspan></text></g>
+                        <g id="100900090101" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: green"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="15" y="45">급</tspan></text></g>
+                        <g id="100900090102" style="display:none"><image href="@/assets/train.png" x="-40" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="-15" y="45">급</tspan></text></g>
+
+                        <g id="100900090110" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="0" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-15" y="45">급</tspan></text></g>
+                        <g id="100900090111" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: green"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-25" y="45">급</tspan></text></g>
+                        <g id="100900090112" style="display:none"><image href="@/assets/train.png" x="-50" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: black"><tspan x="30" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="15" y="45">급</tspan></text></g>
+                    </g>
+                <g class="mw-station" transform="translate(550, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000904" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신방화</tspan></text>
+                    <g id="100900090100" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="5" y="45">급</tspan></text></g>
+                        <g id="100900090101" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: green"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="15" y="45">급</tspan></text></g>
+                        <g id="100900090102" style="display:none"><image href="@/assets/train.png" x="-40" y="30" style="transform: scaleX(1);">
+                        </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="-15" y="45">급</tspan></text></g>
+
+                        <g id="100900090110" style="display:none"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: red"><tspan x="0" y="30">진입</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-15" y="45">급</tspan></text></g>
+                        <g id="100900090111" style="display:none"><image href="@/assets/train.png" x="-10" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: green"><tspan x="-10" y="30">도착</tspan></text>
+                        <text style="font-size: 10px; fill: blue"><tspan x="-25" y="45">급</tspan></text></g>
+                        <g id="100900090112" style="display:none"><image href="@/assets/train.png" x="-50" y="30" style="transform: scaleX(-1);">
+                        </image><text style="font-size: 10px; fill: black"><tspan x="30" y="30">출발</tspan></text>
+                        <text id="rmq" style="font-size: 10px; fill: blue; display: initial"><tspan x="15" y="45">급</tspan></text></g>
+                    </g>
                 <g class="mw-station" transform="translate(625, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000905" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">마곡나루</tspan></text></g>
                 <g class="mw-station" transform="translate(700, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000906" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">양천항교</tspan></text></g>
                 <g class="mw-station" transform="translate(775, 240)" data-id="1" data-type="station" data-line-id="1009" data-station-id="1009000907" data-uptrain-pos="2063,1264,L" data-downtrain-pos="2063,1323,R"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">가양</tspan></text></g>
@@ -116,3 +193,15 @@
         </g>
     </svg>
 </template>
+
+<script>
+export default {
+  methods: {
+    test111 () {
+      var te = document.getElementById('100900090100')
+      te.style.display = 'initial'
+      te.lastChild.style.display = 'none'
+    }
+  }
+}
+</script>
