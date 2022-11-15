@@ -5,7 +5,7 @@ module.exports = defineConfig({
   // outputDir: "../src/main/resources/static",
   // //indexPath : index.html 파일이 생성될 위치
   // indexPath: "../static/index.html",
-  // //SpringBoot 서버 접속 주소
+  //SpringBoot 서버 접속 주소
   devServer: {
     proxy: "http://localhost:8080"
   },
