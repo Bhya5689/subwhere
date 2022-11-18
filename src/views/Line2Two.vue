@@ -2,10 +2,10 @@
    <div>
         <h1>2호선</h1>
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+            <input type="radio" class="btn-check" v-on:click="upLine" name="btnradio" id="btnradio1" autocomplete="off">
             <label class="btn btn-outline-primary" for="btnradio1">외선</label>
 
-             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+             <input type="radio" class="btn-check" v-on:click="downLine" name="btnradio" id="btnradio2" autocomplete="off">
             <label class="btn btn-outline-primary" for="btnradio2">내선</label>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" style="font-size: 12px; font-family: &quot;Nanum Gothic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red;" class="mw-subway">
@@ -148,3 +148,66 @@
         </svg>
     </div>
 </template>
+
+<script>
+import axios from 'axios'
+
+export default {
+  data () {},
+  mounted () {},
+  methods: {
+    clearTrain () {
+      var ccc = document.querySelectorAll('g.trains')
+      for (let i = 0; i < ccc.length; i++) {
+        ccc[i].style.display = 'none'
+        ccc[i].lastChild.style.display = 'none'
+      }
+    },
+    upLine () {
+      this.clearTrain()
+      axios.get('/api/line2', {}).then(res => {
+        for (let i = 0; i < res.data.length; i++) {
+          var trSt = res.data[i].trainSttus
+          if (res.data[i].trainSttus !== '0' && res.data[i].trainSttus !== '1') {
+            trSt = '2'
+          }
+          var str = res.data[i].statnId + res.data[i].updnLine + trSt
+          var ta = document.getElementById(str)
+          if (res.data[i].updnLine === '0') {
+            ta.style.display = 'initial'
+            if (res.data[i].directAt === '1') {
+              ta.lastChild.style.display = 'initial'
+            }
+          }
+        }
+      })
+        .catch(err => {
+          console.log(err)
+        })
+    },
+    downLine () {
+      this.clearTrain()
+      axios.get('/api/line2', {}).then(res => {
+        console.log(res.data)
+        for (let i = 0; i < res.data.length; i++) {
+          var trSt = res.data[i].trainSttus
+          if (res.data[i].trainSttus !== '0' && res.data[i].trainSttus !== '1') {
+            trSt = '2'
+          }
+          var str = res.data[i].statnId + res.data[i].updnLine + trSt
+          var ta = document.getElementById(str)
+          if (res.data[i].updnLine === '1') {
+            ta.style.display = 'initial'
+            if (res.data[i].directAt === '1') {
+              ta.lastChild.style.display = 'initial'
+            }
+          }
+        }
+      })
+        .catch(err => {
+          console.log(err)
+        })
+    }
+  }
+}
+</script>
