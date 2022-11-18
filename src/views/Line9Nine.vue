@@ -875,6 +875,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   data () {},
   mounted () {
@@ -885,11 +887,17 @@ export default {
       var te = document.getElementById('100900090100')
       te.style.display = 'initial'
       te.lastChild.style.display = 'none'
+      console.log('aaa')
     },
     load () {
-      this.axios.get('/api/line9').then(res => {
+      console.log('bbb')
+      axios.get('/api/line9', {}).then(res => {
         console.log(res.data)
+        console.log('ccc')
       })
+        .catch(err => {
+          console.log(err)
+        })
     }
   }
 }
