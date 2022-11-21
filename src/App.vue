@@ -41,7 +41,7 @@
             <router-link to="/line9">9호선</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/line">10호선</router-link>
+            <router-link to="/line10">10호선</router-link>
           </li>
         </ul>
       </div>
