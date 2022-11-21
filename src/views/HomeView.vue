@@ -628,7 +628,6 @@
           <g class="mw-station" transform="translate(855, 1060)"><circle r="3" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="" y="20">천왕</tspan></text></g>
           <g class="mw-station" transform="translate(805, 1030)"><circle r="3" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="" y="-20">온수</tspan></text></g>
         </g>
-        <!--8호선-->
         <g>
           <path class="mw-link" d="M2035,1180L2035,1230" style="fill: none; stroke: rgb(229, 30, 110); stroke-width: 5"></path>
           <path class="mw-link" d="M2035,1230L2035,1280" style="fill: none; stroke: rgb(229, 30, 110); stroke-width: 5"></path>
@@ -667,14 +666,10 @@
           <g class="mw-station" transform="translate(2035, 830)"><circle r="3" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="30" y="">암사</tspan></text></g>
           <g class="mw-station" transform="translate(2035, 780)"><rect width="50" height="10" x="-22.5" y="-5" style="rx: 5; fill: rgb(229, 30, 110); stroke: rgb(229, 30, 110); stroke-width: 10;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 11px; fill: rgb(255, 255, 255); font-weight: 900; pointer-events: none; display: initial;"><tspan x="0" y="4">8호선</tspan></text></g>
         </g>
-        <!--5호선-->
-        <g>
-        </g>
       </g>
     </svg>
   </div>
 </template>
-
 <!-- <script>
 // @ is an alias to /src
 import HeaderLayout from '@/views/layout/HeaderLayout.vue'
