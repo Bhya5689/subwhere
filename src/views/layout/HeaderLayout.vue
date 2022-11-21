@@ -39,6 +39,9 @@
           <li class="nav-item">
             <router-link to="/line9">9호선</router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/line">line</router-link>
+          </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
