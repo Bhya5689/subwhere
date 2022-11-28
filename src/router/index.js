@@ -58,10 +58,15 @@ const routes = [
     name: 'line9',
     component: () => import('../views/Line9Nine.vue')
   },
+  // {
+  //   path: '/line10',
+  //   name: 'line10',
+  //   component: () => import('../views/Line10Ten.vue')
+  // },
   {
-    path: '/line10',
-    name: 'line10',
-    component: () => import('../views/Line10Ten.vue')
+    path: '/Query',
+    name: 'Query',
+    component: () => import('../views/Line10Ten.vue'),
   }
   // {
   //   path: '/about',

@@ -809,7 +809,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                 </g>
-                <g class="mw-station" transform="translate(1600, 600)" data-station-id="1009000921"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">구반포</tspan></text>
+                <g class="mw-station" transform="translate(1600, 600)" data-station-id="1009000921"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);"></circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"><router-link :to="{ name: 'Query', query: { name: '구반포', age: '1009' } }">구반포</router-link></tspan></text>
                         <g id="100900092100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="5" y="45">급</tspan></text></g>
