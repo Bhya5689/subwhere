@@ -66,7 +66,7 @@ const routes = [
   {
     path: '/Query',
     name: 'Query',
-    component: () => import('../views/Line10Ten.vue'),
+    component: () => import('../views/StationDetails.vue'),
   }
   // {
   //   path: '/about',
