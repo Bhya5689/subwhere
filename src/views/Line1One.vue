@@ -129,7 +129,7 @@
                     <path class="mw-link" d="M1000,820L925,820" data-id="1114" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
                 </g>
                 <g>
-                    <g class="mw-station" transform="translate(1825, 100)" data-id="1002" data-station-id="1001000161"><router-link :to="{ name: 'Query', query: { name: '인천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1825, 100)" data-id="1002" data-station-id="1001000161"><router-link :to="{ name: 'Query', query: { name: '인천',prevS: '동인천', nextS: '인천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">인천</tspan></text>
                         <g id="100100016110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -151,7 +151,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1750, 100)" data-id="1003" data-station-id="1001000160"><router-link :to="{ name: 'Query', query: { name: '동인천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1750, 100)" data-id="1003" data-station-id="1001000160"><router-link :to="{ name: 'Query', query: { name: '동인천',prevS: '도원', nextS: '인천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">동인천</tspan></text>
                         <g id="100100016010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -173,7 +173,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1675, 100)" data-id="1004" data-station-id="1001000159"><router-link :to="{ name: 'Query', query: { name: '도원', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1675, 100)" data-id="1004" data-station-id="1001000159"><router-link :to="{ name: 'Query', query: { name: '도원',prevS: '제물포', nextS: '동인천' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">도원</tspan></text>
                         <g id="100100015910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -195,7 +195,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1600, 100)" data-id="1005" data-station-id="1001000158"><router-link :to="{ name: 'Query', query: { name: '제물포', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1600, 100)" data-id="1005" data-station-id="1001000158"><router-link :to="{ name: 'Query', query: { name: '제물포',prevS: '도화', nextS: '도원' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">제물포</tspan></text>
                         <g id="100100015810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -217,7 +217,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1525, 100)" data-id="1006" data-station-id="1001000157"><router-link :to="{ name: 'Query', query: { name: '도화', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1525, 100)" data-id="1006" data-station-id="1001000157"><router-link :to="{ name: 'Query', query: { name: '도화',prevS: '주안', nextS: '제물포' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">도화</tspan></text>
                         <g id="100100015710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -239,7 +239,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1450, 100)" data-id="1007" data-station-id="1001000156"><router-link :to="{ name: 'Query', query: { name: '주안', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1450, 100)" data-id="1007" data-station-id="1001000156"><router-link :to="{ name: 'Query', query: { name: '주안',prevS: '간석', nextS: '도화' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">주안</tspan></text>
                         <g id="100100015610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -261,7 +261,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1375, 100)" data-id="1008" data-station-id="1001000155"><router-link :to="{ name: 'Query', query: { name: '간석', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1375, 100)" data-id="1008" data-station-id="1001000155"><router-link :to="{ name: 'Query', query: { name: '간석',prevS: '동암', nextS: '주안' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">간석</tspan></text>
                         <g id="100100015510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -283,7 +283,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1300, 100)" data-id="1009" data-station-id="1001000154"><router-link :to="{ name: 'Query', query: { name: '동암', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1300, 100)" data-id="1009" data-station-id="1001000154"><router-link :to="{ name: 'Query', query: { name: '동암',prevS: '백운', nextS: '간석' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">동암</tspan></text>
                         <g id="100100015410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -305,7 +305,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 100)" data-id="1010" data-station-id="1001000153"><router-link :to="{ name: 'Query', query: { name: '백운', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 100)" data-id="1010" data-station-id="1001000153"><router-link :to="{ name: 'Query', query: { name: '백운',prevS: '부평', nextS: '동암' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">백운</tspan></text>
                         <g id="100100015310" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -327,7 +327,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1150, 100)" data-id="1011" data-station-id="1001000152"><router-link :to="{ name: 'Query', query: { name: '부평', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1150, 100)" data-id="1011" data-station-id="1001000152"><router-link :to="{ name: 'Query', query: { name: '부평',prevS: '부개', nextS: '백운' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">부평</tspan></text>
                         <g id="100100015210" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -349,7 +349,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1075, 100)" data-id="1012" data-station-id="1001000151"><router-link :to="{ name: 'Query', query: { name: '부개', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1075, 100)" data-id="1012" data-station-id="1001000151"><router-link :to="{ name: 'Query', query: { name: '부개',prevS: '송내', nextS: '부평' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">부개</tspan></text>
                         <g id="100100015110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -371,7 +371,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1000, 100)" data-id="1013" data-station-id="1001000150"><router-link :to="{ name: 'Query', query: { name: '송내', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1000, 100)" data-id="1013" data-station-id="1001000150"><router-link :to="{ name: 'Query', query: { name: '송내',prevS: '중동', nextS: '부개' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">송내</tspan></text>
                         <g id="100100015010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -393,7 +393,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(925, 100)" data-id="1014" data-station-id="1001000149"><router-link :to="{ name: 'Query', query: { name: '중동', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(925, 100)" data-id="1014" data-station-id="1001000149"><router-link :to="{ name: 'Query', query: { name: '중동',prevS: '부천', nextS: '송내' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">중동</tspan></text>
                         <g id="100100014910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -415,7 +415,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(850, 100)" data-id="1015" data-station-id="1001000148"><router-link :to="{ name: 'Query', query: { name: '부천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(850, 100)" data-id="1015" data-station-id="1001000148"><router-link :to="{ name: 'Query', query: { name: '부천',prevS: '소사', nextS: '중동' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">부천</tspan></text>
                         <g id="100100014810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -437,7 +437,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(775, 100)" data-id="1016" data-station-id="1001000147"><router-link :to="{ name: 'Query', query: { name: '소사', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(775, 100)" data-id="1016" data-station-id="1001000147"><router-link :to="{ name: 'Query', query: { name: '소사',prevS: '역곡', nextS: '부천' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">소사</tspan></text>
                         <g id="100100014710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -459,7 +459,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(700, 100)" data-id="1017" data-station-id="1001000146"><router-link :to="{ name: 'Query', query: { name: '역곡', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(700, 100)" data-id="1017" data-station-id="1001000146"><router-link :to="{ name: 'Query', query: { name: '역곡',prevS: '온수', nextS: '소사' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">역곡</tspan></text>
                         <g id="100100014610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -481,7 +481,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(625, 100)" data-id="1018" data-station-id="1001000145"><router-link :to="{ name: 'Query', query: { name: '온수', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(625, 100)" data-id="1018" data-station-id="1001000145"><router-link :to="{ name: 'Query', query: { name: '온수',prevS: '오류동', nextS: '역곡' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">온수</tspan></text>
                         <g id="100100014510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -503,7 +503,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(550, 100)" data-id="1019" data-station-id="1001000144"><router-link :to="{ name: 'Query', query: { name: '오류동', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(550, 100)" data-id="1019" data-station-id="1001000144"><router-link :to="{ name: 'Query', query: { name: '오류동',prevS: '개봉', nextS: '온수' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">오류동</tspan></text>
                         <g id="100100014410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -525,7 +525,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(475, 100)" data-id="1023" data-station-id="1001000143"><router-link :to="{ name: 'Query', query: { name: '개봉', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(475, 100)" data-id="1023" data-station-id="1001000143"><router-link :to="{ name: 'Query', query: { name: '개봉',prevS: '구일', nextS: '오류동' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">개봉</tspan></text>
                         <g id="100100014310" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -547,7 +547,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(400, 100)" data-id="1024" data-station-id="1001000142"><router-link :to="{ name: 'Query', query: { name: '구일', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 100)" data-id="1024" data-station-id="1001000142"><router-link :to="{ name: 'Query', query: { name: '구일',prevS: '구로', nextS: '개봉' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">구일</tspan></text>
                       <g id="100100014210" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -575,7 +575,7 @@
                     <g class="mw-station" transform="translate(325, 250)" data-id="1022" ><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"></tspan></text></g>
 
-                    <g class="mw-station" transform="translate(400, 250)" data-id="1025" data-station-id="1001000141"><router-link :to="{ name: 'Query', query: { name: '구로', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 250)" data-id="1025" data-station-id="1001000141"><router-link :to="{ name: 'Query', query: { name: '구로',prevS: '신도림', nextS: '가산디지털단지/구일' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">구로</tspan></text>
                         <g id="100100014110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="-40">진입</tspan></text>
@@ -600,7 +600,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(475, 250)" data-id="1026" data-station-id="1001000140"><router-link :to="{ name: 'Query', query: { name: '신도림', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(475, 250)" data-id="1026" data-station-id="1001000140"><router-link :to="{ name: 'Query', query: { name: '신도림',prevS: '영등포', nextS: '구로' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">신도림</tspan></text>
                         <g id="100100014000" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -622,7 +622,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(550, 250)" data-id="1027" data-station-id="1001000139"><router-link :to="{ name: 'Query', query: { name: '영등포', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(550, 250)" data-id="1027" data-station-id="1001000139"><router-link :to="{ name: 'Query', query: { name: '영등포',prevS: '신길', nextS: '신도림' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">영등포</tspan></text>
                         <g id="100100013900" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -644,7 +644,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(625, 250)" data-id="1028" data-station-id="1001000138"><router-link :to="{ name: 'Query', query: { name: '신길', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(625, 250)" data-id="1028" data-station-id="1001000138"><router-link :to="{ name: 'Query', query: { name: '신길',prevS: '대방', nextS: '영등포' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">신길</tspan></text>
                         <g id="100100013800" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -666,7 +666,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(700, 250)" data-id="1029" data-station-id="1001000137"><router-link :to="{ name: 'Query', query: { name: '대방', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(700, 250)" data-id="1029" data-station-id="1001000137"><router-link :to="{ name: 'Query', query: { name: '대방',prevS: '노량진', nextS: '신길' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">대방</tspan></text>
                         <g id="100100013700" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -688,7 +688,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(775, 250)" data-id="1030" data-station-id="1001000136"><router-link :to="{ name: 'Query', query: { name: '노량진', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(775, 250)" data-id="1030" data-station-id="1001000136"><router-link :to="{ name: 'Query', query: { name: '노량진',prevS: '용산', nextS: '데방' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">노량진</tspan></text>
                         <g id="100100013600" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -710,7 +710,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(850, 250)" data-id="1031" data-station-id="1001000135"><router-link :to="{ name: 'Query', query: { name: '용산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(850, 250)" data-id="1031" data-station-id="1001000135"><router-link :to="{ name: 'Query', query: { name: '용산',prevS: '남영', nextS: '노량진' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">용산</tspan></text>
                         <g id="100100013500" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -732,7 +732,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(925, 250)" data-id="1032" data-station-id="1001000134"><router-link :to="{ name: 'Query', query: { name: '남염', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(925, 250)" data-id="1032" data-station-id="1001000134"><router-link :to="{ name: 'Query', query: { name: '남염',prevS: '서울역', nextS: '용산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">남염</tspan></text>
                         <g id="100100013400" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -754,7 +754,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1000, 250)" data-id="1033" data-station-id="1001000133"><router-link :to="{ name: 'Query', query: { name: '서울역', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1000, 250)" data-id="1033" data-station-id="1001000133"><router-link :to="{ name: 'Query', query: { name: '서울역',prevS: '시청', nextS: '남영' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">서울역</tspan></text>
                         <g id="100100013300" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -776,7 +776,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1075, 250)" data-id="1034" data-station-id="1001000132"><router-link :to="{ name: 'Query', query: { name: '시청', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1075, 250)" data-id="1034" data-station-id="1001000132"><router-link :to="{ name: 'Query', query: { name: '시청',prevS: '종각', nextS: '서울역' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">시청</tspan></text>
                         <g id="100100013200" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -798,7 +798,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1150, 250)" data-id="1035" data-station-id="1001000131"><router-link :to="{ name: 'Query', query: { name: '종각', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1150, 250)" data-id="1035" data-station-id="1001000131"><router-link :to="{ name: 'Query', query: { name: '종각',prevS: '종로3가', nextS: '시청' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">종각</tspan></text>
                         <g id="100100013100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -820,7 +820,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 250)" data-id="1036" data-station-id="1001000130"><router-link :to="{ name: 'Query', query: { name: '종로3가', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 250)" data-id="1036" data-station-id="1001000130"><router-link :to="{ name: 'Query', query: { name: '종로3가',prevS: '종로5가', nextS: '종각' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">종로3가</tspan></text>
                         <g id="100100013000" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -842,7 +842,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1300, 250)" data-id="1037" data-station-id="1001000129"><router-link :to="{ name: 'Query', query: { name: '종로5가', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1300, 250)" data-id="1037" data-station-id="1001000129"><router-link :to="{ name: 'Query', query: { name: '종로5가',prevS: '동대문', nextS: '종로3가' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">종로5가</tspan></text>
                         <g id="100100012900" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -864,7 +864,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1375, 250)" data-id="1038" data-station-id="1001000128"><router-link :to="{ name: 'Query', query: { name: '동대문', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1375, 250)" data-id="1038" data-station-id="1001000128"><router-link :to="{ name: 'Query', query: { name: '동대문',prevS: '동묘앞', nextS: '종로5가' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">동대문</tspan></text>
                         <g id="100100012800" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -886,7 +886,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1450, 250)" data-id="1039" data-station-id="1001000127"><router-link :to="{ name: 'Query', query: { name: '동묘앞', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1450, 250)" data-id="1039" data-station-id="1001000127"><router-link :to="{ name: 'Query', query: { name: '동묘앞',prevS: '신설동', nextS: '동대문' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">동묘앞</tspan></text>
                         <g id="100100012700" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -908,7 +908,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1525, 250)" data-id="1040" data-station-id="1001000126"><router-link :to="{ name: 'Query', query: { name: '신설동', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1525, 250)" data-id="1040" data-station-id="1001000126"><router-link :to="{ name: 'Query', query: { name: '신설동',prevS: '제기동', nextS: '동묘앞' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">신설동</tspan></text>
                         <g id="100100012600" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -930,7 +930,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1600, 250)" data-id="1044" data-station-id="1001000125"><router-link :to="{ name: 'Query', query: { name: '제기동', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1600, 250)" data-id="1044" data-station-id="1001000125"><router-link :to="{ name: 'Query', query: { name: '제기동',prevS: '청량리', nextS: '신설동' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">제기동</tspan></text>
                         <g id="100100012500" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -952,7 +952,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1675, 250)" data-id="1045" data-station-id="1001000124"><router-link :to="{ name: 'Query', query: { name: '청량리', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1675, 250)" data-id="1045" data-station-id="1001000124"><router-link :to="{ name: 'Query', query: { name: '청량리',prevS: '회기', nextS: '제기동' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">청량리</tspan></text>
                         <g id="100100012400" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -974,7 +974,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1750, 250)" data-id="1046" data-station-id="1001000123"><router-link :to="{ name: 'Query', query: { name: '회기', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1750, 250)" data-id="1046" data-station-id="1001000123"><router-link :to="{ name: 'Query', query: { name: '회기',prevS: '외대앞', nextS: '청량리' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">회기</tspan></text>
                         <g id="100100012300" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -996,7 +996,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1825, 250)" data-id="1047" data-station-id="1001000122"><router-link :to="{ name: 'Query', query: { name: '외대앞', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1825, 250)" data-id="1047" data-station-id="1001000122"><router-link :to="{ name: 'Query', query: { name: '외대앞',prevS: '신이문', nextS: '회기' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">외대앞</tspan></text>
                       <g id="100100012200" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1024,7 +1024,7 @@
                     <g class="mw-station" transform="translate(1900, 400)" data-id="1049" ><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"></tspan></text></g>
 
-                    <g class="mw-station" transform="translate(1825, 400)" data-id="1050" data-station-id="1001000121"><router-link :to="{ name: 'Query', query: { name: '신이문', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1825, 400)" data-id="1050" data-station-id="1001000121"><router-link :to="{ name: 'Query', query: { name: '신이문',prevS: '석계', nextS: '외대앞' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신이문</tspan></text>
                         <g id="100100012110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1046,7 +1046,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1750, 400)" data-id="1051" data-station-id="1001000120"><router-link :to="{ name: 'Query', query: { name: '석계', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1750, 400)" data-id="1051" data-station-id="1001000120"><router-link :to="{ name: 'Query', query: { name: '석계',prevS: '광운대', nextS: '신이문' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">석계</tspan></text>
                         <g id="100100012010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1068,7 +1068,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1675, 400)" data-id="1050" data-station-id="1001000119"><router-link :to="{ name: 'Query', query: { name: '광운대', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1675, 400)" data-id="1050" data-station-id="1001000119"><router-link :to="{ name: 'Query', query: { name: '광운대',prevS: '월계', nextS: '석계' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">광운대</tspan></text>
                         <g id="100100011910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1090,7 +1090,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1600, 400)" data-id="1051" data-station-id="1001000118"><router-link :to="{ name: 'Query', query: { name: '월계', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1600, 400)" data-id="1051" data-station-id="1001000118"><router-link :to="{ name: 'Query', query: { name: '월계',prevS: '녹천', nextS: '광운대' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">월계</tspan></text>
                         <g id="100100011810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1112,7 +1112,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1525, 400)" data-id="1052" data-station-id="1001000117"><router-link :to="{ name: 'Query', query: { name: '녹천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1525, 400)" data-id="1052" data-station-id="1001000117"><router-link :to="{ name: 'Query', query: { name: '녹천',prevS: '창동', nextS: '월계' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">녹천</tspan></text>
                         <g id="100100011710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1134,7 +1134,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1450, 400)" data-id="1053" data-station-id="1001000116"><router-link :to="{ name: 'Query', query: { name: '창동', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1450, 400)" data-id="1053" data-station-id="1001000116"><router-link :to="{ name: 'Query', query: { name: '창동',prevS: '방학', nextS: '녹천' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">창동</tspan></text>
                         <g id="100100011610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1156,7 +1156,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1375, 400)" data-id="1054" data-station-id="1001000115"><router-link :to="{ name: 'Query', query: { name: '방학', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1375, 400)" data-id="1054" data-station-id="1001000115"><router-link :to="{ name: 'Query', query: { name: '방학',prevS: '도봉', nextS: '창동' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">방학</tspan></text>
                         <g id="100100011510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1178,7 +1178,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1300, 400)" data-id="1055" data-station-id="1001000114"><router-link :to="{ name: 'Query', query: { name: '도봉', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1300, 400)" data-id="1055" data-station-id="1001000114"><router-link :to="{ name: 'Query', query: { name: '도봉',prevS: '도봉산', nextS: '방학' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">도봉</tspan></text>
                         <g id="100100011410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1200,7 +1200,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 400)" data-id="1056" data-station-id="1001000113"><router-link :to="{ name: 'Query', query: { name: '도봉산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 400)" data-id="1056" data-station-id="1001000113"><router-link :to="{ name: 'Query', query: { name: '도봉산',prevS: '망월사', nextS: '도봉' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">도봉산</tspan></text>
                         <g id="100100011310" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1222,7 +1222,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1150, 400)" data-id="1057" data-station-id="1001000112"><router-link :to="{ name: 'Query', query: { name: '망월사', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1150, 400)" data-id="1057" data-station-id="1001000112"><router-link :to="{ name: 'Query', query: { name: '망월사',prevS: '회룡', nextS: '도봉산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">망월사</tspan></text>
                         <g id="100100011210" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1244,7 +1244,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1075, 400)" data-id="1058" data-station-id="1001000111"><router-link :to="{ name: 'Query', query: { name: '회룡', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1075, 400)" data-id="1058" data-station-id="1001000111"><router-link :to="{ name: 'Query', query: { name: '회룡',prevS: '의정부', nextS: '망월사' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">회룡</tspan></text>
                         <g id="100100011110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1266,7 +1266,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1000, 400)" data-id="1059" data-station-id="1001000110"><router-link :to="{ name: 'Query', query: { name: '의정부', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1000, 400)" data-id="1059" data-station-id="1001000110"><router-link :to="{ name: 'Query', query: { name: '의정부',prevS: '가능', nextS: '회룡' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">의정부</tspan></text>
                         <g id="100100011010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1288,7 +1288,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(925, 400)" data-id="1060" data-station-id="1001000109"><router-link :to="{ name: 'Query', query: { name: '가능', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(925, 400)" data-id="1060" data-station-id="1001000109"><router-link :to="{ name: 'Query', query: { name: '가능',prevS: '녹약', nextS: '의정부' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">가능</tspan></text>
                         <g id="100100010910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1310,7 +1310,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(850, 400)" data-id="1061" data-station-id="1001000108"><router-link :to="{ name: 'Query', query: { name: '녹약', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(850, 400)" data-id="1061" data-station-id="1001000108"><router-link :to="{ name: 'Query', query: { name: '녹약',prevS: '양주', nextS: '가능' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">녹약</tspan></text>
                         <g id="100100010810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1332,7 +1332,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(775, 400)" data-id="1065" data-station-id="1001000107"><router-link :to="{ name: 'Query', query: { name: '양주', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(775, 400)" data-id="1065" data-station-id="1001000107"><router-link :to="{ name: 'Query', query: { name: '양주',prevS: '덕계', nextS: '녹약' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">양주</tspan></text>
                         <g id="100100010710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1354,7 +1354,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(700, 400)" data-id="1066" data-station-id="1001000106"><router-link :to="{ name: 'Query', query: { name: '덕계', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(700, 400)" data-id="1066" data-station-id="1001000106"><router-link :to="{ name: 'Query', query: { name: '덕계',prevS: '덕정', nextS: '양주' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">덕계</tspan></text>
                         <g id="100100010610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1376,7 +1376,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(625, 400)" data-id="1067" data-station-id="1001000105"><router-link :to="{ name: 'Query', query: { name: '덕정', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(625, 400)" data-id="1067" data-station-id="1001000105"><router-link :to="{ name: 'Query', query: { name: '덕정',prevS: '지행', nextS: '덕계' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">덕정</tspan></text>
                         <g id="100100010510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1398,8 +1398,8 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(550, 400)" data-id="1062"  data-station-id="1001000104"><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
-                        </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="">지행</tspan></text>
+                    <g class="mw-station" transform="translate(550, 400)" data-id="1062"  data-station-id="1001000104"><router-link :to="{ name: 'Query', query: { name: '지행', prevS: '동두천중앙', nextS: '' , age: '1001' } }"><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                        </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="">지행</tspan></text>
                         <g id="100100010410" style="display:none" transform=rotate(0) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="-40">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="5" y="-25">급</tspan></text></g>
@@ -1424,7 +1424,7 @@
                     <g class="mw-station" transform="translate(550, 540)" data-id="1064" ><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"></tspan></text></g>
 
-                    <g class="mw-station" transform="translate(625, 540)" data-id="1069" data-station-id="1001000103"><router-link :to="{ name: 'Query', query: { name: '동두천중앙', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(625, 540)" data-id="1069" data-station-id="1001000103"><router-link :to="{ name: 'Query', query: { name: '동두천중앙',prevS: '보산', nextS: '덕정' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">동두천중앙</tspan></text>
                         <g id="100100010300" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1446,7 +1446,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(700, 540)" data-id="1070" data-station-id="1001000102"><router-link :to="{ name: 'Query', query: { name: '보산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(700, 540)" data-id="1070" data-station-id="1001000102"><router-link :to="{ name: 'Query', query: { name: '보산',prevS: '동두천', nextS: '동두천중앙' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">보산</tspan></text>
                         <g id="100100010200" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1468,7 +1468,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(775, 540)" data-id="1071" data-station-id="1001000101"><router-link :to="{ name: 'Query', query: { name: '동두천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(775, 540)" data-id="1071" data-station-id="1001000101"><router-link :to="{ name: 'Query', query: { name: '동두천',prevS: '소요산', nextS: '보산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">동두천</tspan></text>
                         <g id="100100010100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1490,7 +1490,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(850, 540)" data-id="1072" data-station-id="1001000100"><router-link :to="{ name: 'Query', query: { name: '소요산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(850, 540)" data-id="1072" data-station-id="1001000100"><router-link :to="{ name: 'Query', query: { name: '소요산',prevS: '동두천', nextS: '소요산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">소요산</tspan></text>
                         <g id="100100010000" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1534,7 +1534,7 @@
                         </image><text style="font-size: 10px; fill: black;"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(400, 400)" data-id="1074" data-station-id="1001080143"><router-link :to="{ name: 'Query', query: { name: '독산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 400)" data-id="1074" data-station-id="1001080143"><router-link :to="{ name: 'Query', query: { name: '독산',prevS: '가산디지털단지', nextS: '금천구청' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="-20">독산</tspan></text>
                         <g id="100108014300" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
@@ -1556,7 +1556,7 @@
                         </image><text style="font-size: 10px; fill: black;"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(400, 470)" data-id="1075" data-station-id="1001080144"><router-link :to="{ name: 'Query', query: { name: '금천구청', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 470)" data-id="1075" data-station-id="1001080144"><router-link :to="{ name: 'Query', query: { name: '금천구청',prevS: '독산', nextS: '석수/광명' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="-40" y="-20">금천구청</tspan></text>
                         <g id="100108014400" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
@@ -1581,7 +1581,7 @@
                         </image><text style="font-size: 10px; fill: black;"><tspan x="-40" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(325, 470)" data-id="1076" data-station-id="1001075410"><router-link :to="{ name: 'Query', query: { name: '광명', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(325, 470)" data-id="1076" data-station-id="1001075410"><router-link :to="{ name: 'Query', query: { name: '광명',prevS: '금천구청', nextS: '금천구청' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="-20">광명</tspan></text>
                       <g id="100107541000" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1603,7 +1603,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(400, 540)" data-id="1077" data-station-id="1001080145"><router-link :to="{ name: 'Query', query: { name: '석수', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 540)" data-id="1077" data-station-id="1001080145"><router-link :to="{ name: 'Query', query: { name: '석수',prevS: '금천구청', nextS: '관악' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="-20">석수</tspan></text>
                       <g id="100108014500" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
@@ -1625,7 +1625,7 @@
                         </image><text style="font-size: 10px; fill: black;"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(400, 610)" data-id="1078" data-station-id="1001080146"><router-link :to="{ name: 'Query', query: { name: '관악', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(400, 610)" data-id="1078" data-station-id="1001080146"><router-link :to="{ name: 'Query', query: { name: '관악',prevS: '석수', nextS: '안양' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="-40" y="-20">관악</tspan></text>
                       <g id="100108014600" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
@@ -1651,7 +1651,7 @@
                     <g class="mw-station" transform="translate(400, 680)" data-id="1079" ><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"></tspan></text></g>
 
-                    <g class="mw-station" transform="translate(475, 680)" data-id="1080" data-station-id="1001080147"><router-link :to="{ name: 'Query', query: { name: '안양', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(475, 680)" data-id="1080" data-station-id="1001080147"><router-link :to="{ name: 'Query', query: { name: '안양',prevS: '관악', nextS: '명학' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">안양</tspan></text>
                         <g id="100108014710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1673,7 +1673,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(550, 680)" data-id="1081" data-station-id="1001080148"><router-link :to="{ name: 'Query', query: { name: '명학', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(550, 680)" data-id="1081" data-station-id="1001080148"><router-link :to="{ name: 'Query', query: { name: '명학',prevS: '안양', nextS: '금정' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">명학</tspan></text>
                         <g id="100108014810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1695,7 +1695,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(625, 680)" data-id="1082" data-station-id="1001080149"><router-link :to="{ name: 'Query', query: { name: '금정', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(625, 680)" data-id="1082" data-station-id="1001080149"><router-link :to="{ name: 'Query', query: { name: '금정',prevS: '명학', nextS: '군포' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="-40" y="-20">금정</tspan></text>
                         <g id="100108014910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1717,7 +1717,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(700, 680)" data-id="1083" data-station-id="1001080150"><router-link :to="{ name: 'Query', query: { name: '군포', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(700, 680)" data-id="1083" data-station-id="1001080150"><router-link :to="{ name: 'Query', query: { name: '군포',prevS: '금정', nextS: '당정' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">군포</tspan></text>
                         <g id="100108015010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1739,7 +1739,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(775, 680)" data-id="1084" data-station-id="1001080151"><router-link :to="{ name: 'Query', query: { name: '당정', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(775, 680)" data-id="1084" data-station-id="1001080151"><router-link :to="{ name: 'Query', query: { name: '당정',prevS: '군포', nextS: '의왕' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">당정</tspan></text>
                         <g id="100108015110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1761,7 +1761,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(850, 680)" data-id="1085" data-station-id="1001080152"><router-link :to="{ name: 'Query', query: { name: '의왕', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(850, 680)" data-id="1085" data-station-id="1001080152"><router-link :to="{ name: 'Query', query: { name: '의왕',prevS: '당정', nextS: '성균관대' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">의왕</tspan></text>
                         <g id="100108015210" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1783,7 +1783,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(925, 680)" data-id="1086" data-station-id="1001080153"><router-link :to="{ name: 'Query', query: { name: '성균관대', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(925, 680)" data-id="1086" data-station-id="1001080153"><router-link :to="{ name: 'Query', query: { name: '성균관대',prevS: '의왕', nextS: '화서' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">성균관대</tspan></text>
                         <g id="100108015310" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1805,7 +1805,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1000, 680)" data-id="1087" data-station-id="1001080154"><router-link :to="{ name: 'Query', query: { name: '화서', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1000, 680)" data-id="1087" data-station-id="1001080154"><router-link :to="{ name: 'Query', query: { name: '화서',prevS: '성균관대', nextS: '수언' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">화서</tspan></text>
                         <g id="100108015410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1827,7 +1827,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1075, 680)" data-id="1088" data-station-id="1001080155"><router-link :to="{ name: 'Query', query: { name: '수원', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1075, 680)" data-id="1088" data-station-id="1001080155"><router-link :to="{ name: 'Query', query: { name: '수원',prevS: '화서', nextS: '세류' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">수원</tspan></text>
                         <g id="100108015510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1849,7 +1849,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1150, 680)" data-id="1089" data-station-id="1001080156"><router-link :to="{ name: 'Query', query: { name: '세류', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1150, 680)" data-id="1089" data-station-id="1001080156"><router-link :to="{ name: 'Query', query: { name: '세류',prevS: '수원', nextS: '병점' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">세류</tspan></text>
                         <g id="100108015610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1871,7 +1871,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 680)" data-id="1090" data-station-id="1001080157"><router-link :to="{ name: 'Query', query: { name: '병점', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 680)" data-id="1090" data-station-id="1001080157"><router-link :to="{ name: 'Query', query: { name: '병점',prevS: '세류', nextS: '서동탄/세마' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">병점</tspan></text>
                         <g id="100108015710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1897,7 +1897,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 610)" data-id="1091" data-station-id="1001801571"><router-link :to="{ name: 'Query', query: { name: '서동탄', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 610)" data-id="1091" data-station-id="1001801571"><router-link :to="{ name: 'Query', query: { name: '서동탄',prevS: '병점', nextS: '서동탄' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">서동탄</tspan></text>
                         <g id="100180157110" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
@@ -1919,7 +1919,7 @@
                         </image><text style="font-size: 10px; fill: black;"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1300, 680)" data-id="1092" data-station-id="1001080158"><router-link :to="{ name: 'Query', query: { name: '세마', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1300, 680)" data-id="1092" data-station-id="1001080158"><router-link :to="{ name: 'Query', query: { name: '세마',prevS: '병점', nextS: '오산대' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">세마</tspan></text>
                         <g id="100108015810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1941,7 +1941,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1375, 680)" data-id="1093" data-station-id="1001080159"><router-link :to="{ name: 'Query', query: { name: '오산대', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1375, 680)" data-id="1093" data-station-id="1001080159"><router-link :to="{ name: 'Query', query: { name: '오산대',prevS: '세마', nextS: '오산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">오산대</tspan></text>
                         <g id="100108015910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1963,7 +1963,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1450, 680)" data-id="1094" data-station-id="1001080160"><router-link :to="{ name: 'Query', query: { name: '오산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1450, 680)" data-id="1094" data-station-id="1001080160"><router-link :to="{ name: 'Query', query: { name: '오산',prevS: '오산대', nextS: '진위' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">오산</tspan></text>
                         <g id="100108016010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -1985,7 +1985,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1525, 680)" data-id="1095" data-station-id="1001080161"><router-link :to="{ name: 'Query', query: { name: '진위', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1525, 680)" data-id="1095" data-station-id="1001080161"><router-link :to="{ name: 'Query', query: { name: '진위',prevS: '오산', nextS: '송탄' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">진위</tspan></text>
                         <g id="100108016110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2007,7 +2007,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1600, 680)" data-id="1096" data-station-id="1001080162"><router-link :to="{ name: 'Query', query: { name: '송탄', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1600, 680)" data-id="1096" data-station-id="1001080162"><router-link :to="{ name: 'Query', query: { name: '송탄',prevS: '진위', nextS: '서정리' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">송탄</tspan></text>
                         <g id="100108016210" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2029,7 +2029,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1675, 680)" data-id="1097" data-station-id="1001080163"><router-link :to="{ name: 'Query', query: { name: '서정리', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1675, 680)" data-id="1097" data-station-id="1001080163"><router-link :to="{ name: 'Query', query: { name: '서정리',prevS: '송탄', nextS: '평택지제' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">서정리</tspan></text>
                         <g id="100108016310" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2051,7 +2051,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1750, 680)" data-id="1098" data-station-id="1001080164"><router-link :to="{ name: 'Query', query: { name: '평택지제', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1750, 680)" data-id="1098" data-station-id="1001080164"><router-link :to="{ name: 'Query', query: { name: '평택지제',prevS: '서정리', nextS: '평택' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">평택지제</tspan></text>
                         <g id="100108016410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2073,7 +2073,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1825, 680)" data-id="1099" data-station-id="1001080165"><router-link :to="{ name: 'Query', query: { name: '평택', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1825, 680)" data-id="1099" data-station-id="1001080165"><router-link :to="{ name: 'Query', query: { name: '평택',prevS: '평택지제', nextS: '성환' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">평택</tspan></text>
                       <g id="100108016510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2101,7 +2101,7 @@
                     <g class="mw-station" transform="translate(1900, 820)" data-id="1101" ><circle r="10" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20"></tspan></text></g>
 
-                    <g class="mw-station" transform="translate(1825, 820)" data-id="1102" data-station-id="1001080166"><router-link :to="{ name: 'Query', query: { name: '성환', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1825, 820)" data-id="1102" data-station-id="1001080166"><router-link :to="{ name: 'Query', query: { name: '성환',prevS: '평택', nextS: '직산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">성환</tspan></text>
                         <g id="100108016600" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2123,7 +2123,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1750, 820)" data-id="1103" data-station-id="1001080167"><router-link :to="{ name: 'Query', query: { name: '직산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1750, 820)" data-id="1103" data-station-id="1001080167"><router-link :to="{ name: 'Query', query: { name: '직산',prevS: '성환', nextS: '두정' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">직산</tspan></text>
                         <g id="100108016700" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2145,7 +2145,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1675, 820)" data-id="1104" data-station-id="1001080168"><router-link :to="{ name: 'Query', query: { name: '두정', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1675, 820)" data-id="1104" data-station-id="1001080168"><router-link :to="{ name: 'Query', query: { name: '두정',prevS: '직산', nextS: '천안' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">두정</tspan></text>
                         <g id="100108016800" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2167,7 +2167,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1600, 820)" data-id="1105" data-station-id="1001080169"><router-link :to="{ name: 'Query', query: { name: '천안', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1600, 820)" data-id="1105" data-station-id="1001080169"><router-link :to="{ name: 'Query', query: { name: '천안',prevS: '두정', nextS: '봉명' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">천안</tspan></text>
                         <g id="100108016900" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2189,7 +2189,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1525, 820)" data-id="1106" data-station-id="1001080170"><router-link :to="{ name: 'Query', query: { name: '봉명', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1525, 820)" data-id="1106" data-station-id="1001080170"><router-link :to="{ name: 'Query', query: { name: '봉명',prevS: '천안', nextS: '쌍용' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">봉명</tspan></text>
                         <g id="100108017000" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2211,7 +2211,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1450, 820)" data-id="1107" data-station-id="1001080171"><router-link :to="{ name: 'Query', query: { name: '상용', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1450, 820)" data-id="1107" data-station-id="1001080171"><router-link :to="{ name: 'Query', query: { name: '상용',prevS: '봉명', nextS: '아산' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">쌍용</tspan></text>
                         <g id="100108017100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2233,7 +2233,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1375, 820)" data-id="1108" data-station-id="1001080172"><router-link :to="{ name: 'Query', query: { name: '아산', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1375, 820)" data-id="1108" data-station-id="1001080172"><router-link :to="{ name: 'Query', query: { name: '아산',prevS: '쌍용', nextS: '탕정' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">아산</tspan></text>
                         <g id="100108017200" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2255,7 +2255,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1300, 820)" data-id="1109" data-station-id="1001080173"><router-link :to="{ name: 'Query', query: { name: '탕정', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1300, 820)" data-id="1109" data-station-id="1001080173"><router-link :to="{ name: 'Query', query: { name: '탕정',prevS: '아산', nextS: '배방' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">탕정</tspan></text>
                         <g id="100108017300" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2277,7 +2277,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1225, 820)" data-id="1110" data-station-id="1001080174"><router-link :to="{ name: 'Query', query: { name: '배방', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1225, 820)" data-id="1110" data-station-id="1001080174"><router-link :to="{ name: 'Query', query: { name: '배방',prevS: '탕정', nextS: '온양온천' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">배방</tspan></text>
                         <g id="100108017400" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2299,7 +2299,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1150, 820)" data-id="1111" data-station-id="1001080175"><router-link :to="{ name: 'Query', query: { name: '온양온천', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1150, 820)" data-id="1111" data-station-id="1001080175"><router-link :to="{ name: 'Query', query: { name: '온양온천',prevS: '배방', nextS: '신창' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">온양온천</tspan></text>
                         <g id="100108017500" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2321,7 +2321,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1075, 820)" data-id="1112" data-station-id="1001080176"><router-link :to="{ name: 'Query', query: { name: '신창', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <g class="mw-station" transform="translate(1075, 820)" data-id="1112" data-station-id="1001080176"><router-link :to="{ name: 'Query', query: { name: '신창',prevS: '온양온천', nextS: '신창' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신창</tspan></text>
                       <g id="100108017600" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -2343,7 +2343,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <!-- <g class="mw-station" transform="translate(1000, 820)" data-id="1113" data-station-id="1001080177"><router-link :to="{ name: 'Query', query: { name: '동작', age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
+                    <!-- <g class="mw-station" transform="translate(1000, 820)" data-id="1113" data-station-id="1001080177"><router-link :to="{ name: 'Query', query: { name: '동작',prevS: '', nextS: '' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신창</tspan></text></g> -->
                 </g>
                 <g>
