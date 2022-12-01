@@ -88,7 +88,7 @@ export default {
       }
     },
     upLine () {
-      axios.get('/api/detail/'+this.$route.query.name, {}).then(res => {
+      axios.get('/api/detail/'+this.$route.query.name+'/'+this.$route.query.age, {}).then(res => {
         console.log(res.data)
       })
         .catch(err => {
