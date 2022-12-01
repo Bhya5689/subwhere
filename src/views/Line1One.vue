@@ -577,26 +577,26 @@
 
                     <g class="mw-station" transform="translate(400, 250)" data-id="1025" data-station-id="1001000141"><router-link :to="{ name: 'Query', query: { name: '구로',prevS: '신도림', nextS: '가산디지털단지/구일' , age: '1001' } }"><circle r="12" style="fill: rgb(38, 60, 150); stroke: rgb(38, 60, 150);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">구로</tspan></text>
-                        <g id="100100014110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(1);">
+                        <g id="100100014100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="-40">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="5" y="-25">급</tspan></text></g>
-                        <g id="100100014111" style="display:none" class="trains"><image href="@/assets/train.png" x="-10" y="-40" style="transform: scaleX(1);">
+                        <g id="100100014101" style="display:none" class="trains"><image href="@/assets/train.png" x="-10" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: green"><tspan x="-10" y="-40">도착</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="15" y="-25">급</tspan></text></g>
-                        <g id="100100014112" style="display:none" class="trains"><image href="@/assets/train.png" x="30" y="-40" style="transform: scaleX(1);">
+                        <g id="100100014102" style="display:none" class="trains"><image href="@/assets/train.png" x="30" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: black;"><tspan x="30" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="55" y="-25">급</tspan></text></g>
 
-                        <g id="100100014100" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
+                        <g id="100100014110" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="0" y="-40">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-15" y="-25">급</tspan></text></g>
-                        <g id="100100014101" style="display:none" class="trains"><image href="@/assets/train.png" x="-10" y="-40" style="transform: scaleX(-1);">
+                        <g id="100100014111" style="display:none" class="trains"><image href="@/assets/train.png" x="-10" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: green;"><tspan x="-10" y="-40">도착</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-25" y="-25">급</tspan></text></g>
-                        <g id="1001000141020" style="display:none" class="trains"><image href="@/assets/train.png" x="20" y="-40" style="transform: scaleX(-1);">
+                        <g id="1001000141120" style="display:none" class="trains"><image href="@/assets/train.png" x="20" y="-40" style="transform: scaleX(-1);">
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="-25">급</tspan></text></g>
-                        <g id="1001000141021" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="20" y="-40" style="transform: scaleX(1);">
+                        <g id="1001000141121" style="display:none" transform=rotate(90) class="trains"><image href="@/assets/train.png" x="20" y="-40" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: black"><tspan x="20" y="-40">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="45" y="-25">급</tspan></text></g>
                     </g>
