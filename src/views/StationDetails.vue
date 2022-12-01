@@ -15,11 +15,11 @@
             <path class="mw-link" d="M300,150L380,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
             <path class="mw-link" d="M380,150L460,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
             <path class="mw-link" d="M460,150L775,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
-            <g class="mw-station" transform="translate(300, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+            <g class="mw-station" transform="translate(250, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
                 <tspan x="" y="40">{{$route.query.prevS}}</tspan></text></g>
             <g class="mw-station" transform="translate(400, 100)"><rect class="mw-link" width="200" height="100" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(38, 60, 150); stroke-width: 10;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
                 <tspan x="75" y="50">{{ $route.query.name }}</tspan></text></g>
-            <g class="mw-station" transform="translate(655, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+            <g class="mw-station" transform="translate(705, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
                 <tspan x="" y="40">{{$route.query.nextS}}</tspan></text></g>
             <!-- <g class="mw-station" transform="translate(920, 250)"><rect width="700" height="800" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1500; pointer-events: none; display: initial;">
                 <tspan x="75" y="50"></tspan></text></g> -->
