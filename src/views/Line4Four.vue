@@ -108,7 +108,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(475, 150)" data-station-id="1004000408"><router-link :to="{ name: 'Query', query: { name: '별내별가람',prevS: '오남',nextS: '당고개', age: '1004' } }"><circle r="12" style="fill:rgb(9, 148, 203); stroke:rgb(9, 148, 203);">
+                    <g class="mw-station" transform="translate(475, 150)" data-station-id="1004000408"><router-link :to="{ name: 'Query', query: { name: '별내별가람',prevS: '오남',nextS: '당고개', age: '1004' } }"><circle r="12" style="fill: rgb(9, 148, 203); stroke: rgb(9, 148, 203);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">별내별가람</tspan></text>
                         <g id="100400040810" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -130,7 +130,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(550, 150)" data-station-id="1004000409"><router-link :to="{ name: 'Query', query: { name: '당고개',prevS: '별내별가람',nextS: '상계', age: '1004' } }"><circle r="12" style="fill:rgb(9, 148, 203); stroke:rgb(9, 148, 203);">
+                    <g class="mw-station" transform="translate(550, 150)" data-station-id="1004000409"><router-link :to="{ name: 'Query', query: { name: '당고개',prevS: '별내별가람',nextS: '상계', age: '1004' } }"><circle r="12" style="fill:  rgb(9, 148, 203); stroke:  rgb(9, 148, 203);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">당고개</tspan></text>
                         <g id="100400040910" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
