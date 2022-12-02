@@ -19,8 +19,16 @@
                 <tspan x="75" y="50"></tspan></text></g> -->
         </g>
     </g>
-    <g transform="translate(200, 300)"><rect width="300" height="100" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
-                <tspan x="75" y="50">{{ $route.query.name }}</tspan></text></g>
+    <g transform="translate(200, 300)"><rect width="300" height="40" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;  text-decoration: underline;">
+                <tspan x="90" y="20">{{ $route.query.name }}방면</tspan></text></g>
+    <g transform="translate(200, 300)"><rect width="300" height="100" x="-22.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
+                <tspan x="70" y="80">{{ $route.query.name }}</tspan></text><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial; ">
+                <tspan x="70" y="130">{{ $route.query.name }}</tspan></text></g>
+    <g transform="translate(200, 300)"><rect width="300" height="40" x="285.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;  text-decoration: underline;">
+                <tspan x="395" y="20">{{ $route.query.name }}방면</tspan></text></g>
+    <g transform="translate(200, 300)"><rect width="300" height="100" x="285.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
+                <tspan x="375" y="80">{{ $route.query.name }}</tspan></text><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
+                <tspan x="375" y="130">{{ $route.query.name }}</tspan></text></g>
     </svg>
     
     </div>
