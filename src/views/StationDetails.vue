@@ -1,13 +1,7 @@
 <template>
     <div>
-      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" v-on:click="upLine" name="btnradio" id="btnradio1" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio1">상행선</label>
-
-             <input type="radio" class="btn-check" v-on:click="upLine" name="btnradio" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2">하행선</label>
-        </div>
-    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" style="font-size: 12px; font-family: &quot;Nanum Gothic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red; margin: 0 auto" class="mw-subway">
+      
+    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" style="font-size: 12px; font-family: &quot;Nanum Gothic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red; margin: 0 auto" class="mw-subway">
     <g style="visibility: visible;">
         <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
         <g class="line1">
@@ -25,32 +19,10 @@
                 <tspan x="75" y="50"></tspan></text></g> -->
         </g>
     </g>
+    <g transform="translate(200, 300)"><rect width="300" height="100" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
+                <tspan x="75" y="50">{{ $route.query.name }}</tspan></text></g>
     </svg>
-      <table style="width:200px; height:100px; border:1px solid #000000; margin-left: 800px; float: left; ">
-        <thead>
-          <h1>
-            <text style="font-size: 14px; text-align: left; ">도착정보</text>
-          </h1>
-          <tr>
-            <th style="text-align: left;">방면</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align: left;">xxxx</td>
-          </tr>
-        </tbody>
-       </table>
-       <table style="width:200px; height:100px; border:1px solid #000000; margin-right:auto; float: right;">
-          <tr>
-            <th style="text-align: left;">방면</th>
-          </tr>
-        <tbody>
-          <tr>
-            <td style="text-align: left;">xxxx</td>
-          </tr>
-        </tbody>
-       </table>
+    
     </div>
 </template>
 
