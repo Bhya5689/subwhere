@@ -168,7 +168,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(520, 240)" data-id="6" data-station-id="1003000314"><router-link :to="{ name: 'Query', query: { name: '대곡',prevS: '백석', nextS: '화성', age: '1003' } }"><circle r="12" style="fill: rgb(226, 143, 73); stroke: rgb(226, 143, 73);">
+                    <g class="mw-station" transform="translate(520, 240)" data-id="6" data-station-id="1003000314"><router-link :to="{ name: 'Query', query: { name: '대곡',prevS: '백석', nextS: '화정', age: '1003' } }"><circle r="12" style="fill: rgb(226, 143, 73); stroke: rgb(226, 143, 73);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">대곡</tspan></text>
                         <g id="100300031410" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -190,8 +190,8 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(595, 240)" data-id="7" data-station-id="1003000315"><router-link :to="{ name: 'Query', query: { name: '화성',prevS: '대곡', nextS: '원당', age: '1003' } }"><circle r="12" style="fill:  rgb(226, 143, 73); stroke:  rgb(226, 143, 73);">
-                        </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">화성</tspan></text>
+                    <g class="mw-station" transform="translate(595, 240)" data-id="7" data-station-id="1003000315"><router-link :to="{ name: 'Query', query: { name: '화정',prevS: '대곡', nextS: '원당', age: '1003' } }"><circle r="12" style="fill:  rgb(226, 143, 73); stroke:  rgb(226, 143, 73);">
+                        </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">화정</tspan></text>
                         <g id="100300031510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="5" y="45">급</tspan></text></g>
@@ -212,7 +212,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(670, 240)" data-id="8" data-station-id="1003000316"><router-link :to="{ name: 'Query', query: { name: '원당',prevS: '화성', nextS: '원흥', age: '1003' } }"><circle r="12" style="fill:  rgb(226, 143, 73); stroke:  rgb(226, 143, 73);">
+                    <g class="mw-station" transform="translate(670, 240)" data-id="8" data-station-id="1003000316"><router-link :to="{ name: 'Query', query: { name: '원당',prevS: '화정', nextS: '원흥', age: '1003' } }"><circle r="12" style="fill:  rgb(226, 143, 73); stroke:  rgb(226, 143, 73);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">원당</tspan></text>
                         <g id="100300031610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
