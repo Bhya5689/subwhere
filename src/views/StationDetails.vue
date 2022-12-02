@@ -61,23 +61,23 @@ export default {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(226, 143, 73)'
         }
-      }else if(this.$route.query.age === 1004) {
+      }else if(this.$route.query.age === '1004') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(9, 148, 203)'
         }
-      }else if(this.$route.query.age === 1005) {
+      }else if(this.$route.query.age === '1005') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(144, 49, 195)'
         }
-      }else if(this.$route.query.age === 1006) {
+      }else if(this.$route.query.age === '1006') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(152, 92, 68)'
         }
-      }else if(this.$route.query.age === 1007) {
+      }else if(this.$route.query.age === '1007') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(124, 137, 45)'
         }
-      }else if(this.$route.query.age === 1008) {
+      }else if(this.$route.query.age === '1008') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(229, 30, 110)'
         }
