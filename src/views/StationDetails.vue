@@ -26,14 +26,39 @@
         </g>
     </g>
     </svg>
+      <table style="width:200px; height:100px; border:1px solid #000000; margin-left: 800px; float: left; ">
+        <thead>
+          <h1>
+            <text style="font-size: 14px; text-align: left; ">도착정보</text>
+          </h1>
+          <tr>
+            <th style="text-align: left;">방면</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: left;">xxxx</td>
+          </tr>
+        </tbody>
+       </table>
+       <table style="width:200px; height:100px; border:1px solid #000000; margin-right:auto; float: right;">
+          <tr>
+            <th style="text-align: left;">방면</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td style="text-align: left;">xxxx</td>
+          </tr>
+        </tbody>
+       </table>
     </div>
-
 </template>
 
 <script>
 import axios from 'axios'
 
-export default { 
+export default {
+  
   mounted() {
     console.log(this.$route.query.name);
     console.log(this.$route.query.age);
@@ -95,6 +120,6 @@ export default {
           console.log(err)
         })
     }
+    }
   }
-}
 </script>
