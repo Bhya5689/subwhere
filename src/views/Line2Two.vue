@@ -1175,7 +1175,7 @@
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
                     <g class="mw-station" transform="translate(1415, 100)" data-id="45" data-station-id="1002002114"><router-link :to="{ name: 'Query', query: { name: '신설동',prevS: '용두', nextS: '신설동', age: '1002' } }"><circle r="12" style="fill: rgb(45, 176, 61); stroke: rgb(45, 176, 61);">
-                        </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">신설동</tspan></text>
+                        </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">신설동</tspan></text>
                       <g id="100200211400" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display:none"><tspan x="5" y="45">급</tspan></text></g>
