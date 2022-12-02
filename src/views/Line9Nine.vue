@@ -140,7 +140,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                <g class="mw-station" transform="translate(625, 240)" data-station-id="1009000905"><router-link :to="{ name: 'Query', query: { name: '마곡나루',prevS: '신방화',nextS: '양천항교', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
+                <g class="mw-station" transform="translate(625, 240)" data-station-id="1009000905"><router-link :to="{ name: 'Query', query: { name: '마곡나루',prevS: '신방화',nextS: '양천향교', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
                 </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: none;"><tspan x="40" y="-20">마곡나루</tspan></text>
                         <g id="100900090510" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
@@ -162,8 +162,8 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                 </g>
-                <g class="mw-station" transform="translate(700, 240)" data-station-id="1009000906"><router-link :to="{ name: 'Query', query: { name: '양천항교',prevS: '마곡나루',nextS: '가양', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
-                </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">양천항교</tspan></text>
+                <g class="mw-station" transform="translate(700, 240)" data-station-id="1009000906"><router-link :to="{ name: 'Query', query: { name: '양천향교',prevS: '마곡나루',nextS: '가양', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
+                </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">양천향교</tspan></text>
                         <g id="100900090610" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="5" y="45">급</tspan></text></g>
@@ -184,7 +184,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                 </g>
-                <g class="mw-station" transform="translate(775, 240)" data-station-id="1009000907"><router-link :to="{ name: 'Query', query: { name: '가양',prevS: '양천항교',nextS: '증미', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
+                <g class="mw-station" transform="translate(775, 240)" data-station-id="1009000907"><router-link :to="{ name: 'Query', query: { name: '가양',prevS: '양천향교',nextS: '증미', age: '1009' } }"><circle r="12" style="fill: rgb(206, 164, 58); stroke: rgb(206, 164, 58);">
                 </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">가양</tspan></text>
                         <g id="100900090710" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>
