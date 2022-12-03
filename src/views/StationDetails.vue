@@ -9,26 +9,47 @@
             <path class="mw-link" d="M300,150L380,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
             <path class="mw-link" d="M380,150L460,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
             <path class="mw-link" d="M460,150L775,150" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
-            <g class="mw-station" transform="translate(250, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+            <g class="mw-station" transform="translate(250, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
                 <tspan x="" y="40">{{$route.query.prevS}}</tspan></text></g>
-            <g class="mw-station" transform="translate(400, 100)"><rect class="mw-link" width="200" height="100" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(38, 60, 150); stroke-width: 10;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
+            <g class="mw-station" transform="translate(400, 100)"><rect class="mw-link" width="200" height="100" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(38, 60, 150); stroke-width: 10;"></rect><text style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
                 <tspan x="75" y="50">{{ $route.query.name }}</tspan></text></g>
-            <g class="mw-station" transform="translate(705, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+            <g class="mw-station" transform="translate(705, 150)"><circle r="15" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"></circle><text style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
                 <tspan x="" y="40">{{$route.query.nextS}}</tspan></text></g>
-            <!-- <g class="mw-station" transform="translate(920, 250)"><rect width="700" height="800" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1500; pointer-events: none; display: initial;">
+            <!-- <g class="mw-station" transform="translate(920, 250)"><rect width="700" height="800" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-width: 2;"></rect><text style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1500; display: initial;">
                 <tspan x="75" y="50"></tspan></text></g> -->
         </g>
     </g>
-    <g transform="translate(200, 300)"><rect width="300" height="40" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;  text-decoration: underline;">
-                <tspan x="90" y="20">{{ $route.query.name }}방면</tspan></text></g>
-    <g transform="translate(200, 300)"><rect width="300" height="100" x="-22.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
-                <tspan x="70" y="80">{{ $route.query.name }}</tspan></text><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial; ">
-                <tspan x="70" y="130">{{ $route.query.name }}</tspan></text></g>
-    <g transform="translate(200, 300)"><rect width="300" height="40" x="285.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;  text-decoration: underline;">
-                <tspan x="395" y="20">{{ $route.query.name }}방면</tspan></text></g>
-    <g transform="translate(200, 300)"><rect width="300" height="100" x="285.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
-                <tspan x="375" y="80">{{ $route.query.name }}</tspan></text><text transform="rotate(0)" style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1800; pointer-events: none; display: initial;">
-                <tspan x="375" y="130">{{ $route.query.name }}</tspan></text></g>
+    <g transform="translate(200, 300)"><rect width="300" height="40" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect>
+      <text style="text-anchor: start; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+      <tspan x="-5" y="20">{{upLine}}</tspan></text></g>
+    
+      <g transform="translate(200, 300)"><rect width="300" height="100" x="-22.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect>
+      <text style="text-anchor: start; font-weight: 500; font-size: 18px; fill: rgb(0, 0, 0); display: initial;">
+      <tspan x="-5" y="80">{{upbs1}}</tspan></text>
+      <text style="text-anchor: end; font-weight: 800; font-size: 18px; fill: rgb(60, 90, 255); display: initial;">
+      <tspan x="250" y="80">{{upremT1}}</tspan></text>
+      
+      <text style="text-anchor: start; font-weight: 500; font-size: 18px; fill: rgb(0, 0, 0); display: initial; ">
+      <tspan x="-5" y="130">{{upbs2}}</tspan></text>
+      <text style="text-anchor: end; font-weight: 800; font-size: 18px; fill: rgb(60, 90, 255); display: initial;">
+      <tspan x="250" y="130">{{upremT2}}</tspan></text>
+    </g>
+    
+      <g transform="translate(200, 300)"><rect width="300" height="40" x="285.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect>
+      <text style="text-anchor: start; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
+      <tspan x="310" y="20">{{downLine}}</tspan></text></g>
+    
+      <g transform="translate(200, 300)"><rect width="300" height="100" x="285.5" y="50" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect>
+      <text style="text-anchor: start; font-weight: 500; font-size: 18px; fill: rgb(0, 0, 0); display: initial;">
+      <tspan x="310" y="80">{{downbs1}}</tspan></text>
+      <text style="text-anchor: end; font-weight: 800; font-size: 18px; fill: rgb(60, 90, 255); display: initial;">
+      <tspan x="560" y="80">{{downremT1}}</tspan></text>
+      
+      <text style="text-anchor: start; font-weight: 500; font-size: 18px; fill: rgb(0, 0, 0); display: initial;">
+      <tspan x="310" y="130">{{downbs2}}</tspan></text>
+      <text style="text-anchor: end; font-weight: 800; font-size: 18px; fill: rgb(60, 90, 255); display: initial;">
+      <tspan x="560" y="130">{{downremT2}}</tspan></text>
+    </g>
     </svg>
     
     </div>
@@ -42,13 +63,24 @@ export default {
   mounted() {
     console.log(this.$route.query.name);
     console.log(this.$route.query.age);
-    this.setLineColor();  
+    this.setLineColor();
+    this.setData();
   },
   data () {
     return {
       prevS: '',
       stat: '',
-      nextS: ''
+      nextS: '',
+      upLine: '상행선',
+      downLine: '하행선',
+      upbs1: '',
+      upbs2: '',
+      upremT1: '',
+      upremT2: '',
+      downbs1: '',
+      downbs2: '',
+      downremT1: '',
+      downremT2: '',
     }
   },
   methods: {
@@ -56,11 +88,13 @@ export default {
       var ccc = document.querySelectorAll('.mw-link')
       if(this.$route.query.age === '1001') {
         for (let i = 0; i < ccc.length; i++) {
-        ccc[i].style.stroke = 'rgb(38, 60, 150)'
+        ccc[i].style.stroke = 'rgb(38, 60, 150)'        
         }
       }else if(this.$route.query.age === '1002') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(45, 176, 61)'
+        this.upLine = '상행(외선)'
+        this.downLine = '하행(내선)'
         }
       }else if(this.$route.query.age === '1003') {
         for (let i = 0; i < ccc.length; i++) {
@@ -92,13 +126,38 @@ export default {
         }
       }
     },
-    upLine () {
+    setData () {
       axios.get('/api/detail/'+this.$route.query.name+'/'+this.$route.query.age, {}).then(res => {
         console.log(res.data)
+        let ct = 1
+        for (let i = 0; i < res.data.length; i++){
+          let str = res.data[i].ordkey          
+          if (str[0] === '0' && str[1] === '1' && ct === 1){
+            this.upbs1 = res.data[i].bstatnNm
+            this.upremT1 = this.calcTime(res.data[i].barvlDt)
+            ct += 1
+          }else if (str[0] === '0' && str[1] === '2' && ct === 2){
+            this.upbs2 = res.data[i].bstatnNm
+            this.upremT2 = this.calcTime(res.data[i].barvlDt)
+            ct += 1
+          }else if (str[0] === '1' && str[1] === '1' && (ct === 2 || ct === 3)){
+            this.downbs1 = res.data[i].bstatnNm
+            this.downremT1 = this.calcTime(res.data[i].barvlDt)
+            ct += 1
+          }else if (str[0] === '1' && str[1] === '2' && (ct === 3 || ct === 4)){
+            this.downbs2 = res.data[i].bstatnNm
+            this.downremT2 = this.calcTime(res.data[i].barvlDt)
+            ct += 1
+          }
+        }
       })
         .catch(err => {
           console.log(err)
         })
+    },
+    calcTime (t) {
+      let str = parseInt(t/60) + '분 ' + t%60 + '초'
+      return str
     }
     }
   }
