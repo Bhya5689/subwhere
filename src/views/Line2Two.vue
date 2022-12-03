@@ -994,7 +994,7 @@
                         </image><text style="font-size: 10px; fill: black"><tspan x="-40" y="30">출발</tspan></text>
                         <text style="font-size: 10px; fill: blue; display: none"><tspan x="-55" y="45">급</tspan></text></g>
                     </g>
-                    <g class="mw-station" transform="translate(1485, 250)" data-id="43" data-station-id="1002000210"><router-link :to="{ name: 'Query', query: { name: '똑섬',prevS: '한양대', nextS: '성수', age: '1002' } }"><circle r="12" style="fill: rgb(45, 176, 61); stroke: rgb(45, 176, 61);">
+                    <g class="mw-station" transform="translate(1485, 250)" data-id="43" data-station-id="1002000210"><router-link :to="{ name: 'Query', query: { name: '뚝섬',prevS: '한양대', nextS: '성수', age: '1002' } }"><circle r="12" style="fill: rgb(45, 176, 61); stroke: rgb(45, 176, 61);">
                         </circle></router-link><text transform="rotate(-45)" style="text-anchor: middle; font-size: 12px; fill: rgb(102, 102, 102); display: initial;"><tspan x="40" y="-20">뚝섬</tspan></text>
                         <g id="100200021010" style="display:none" class="trains"><image href="@/assets/train.png" x="-20" y="30" style="transform: scaleX(1);">
                         </image><text style="font-size: 10px; fill: red"><tspan x="-20" y="30">진입</tspan></text>

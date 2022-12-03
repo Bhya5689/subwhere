@@ -8,9 +8,8 @@
              <input type="radio" class="btn-check" v-on:click="downLine" name="btnradio" id="btnradio2" autocomplete="off">
             <label class="btn btn-outline-primary" for="btnradio2">하행선</label>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1000" style="font-size: 12px; font-family: &quot;Nanum Gothic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red; margin: 0 auto" class="mw-subway">
-            <g style="visibility: visible;">
-                <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1000" style="font-size: 12px; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red; margin: 0 auto" class="mw-subway">
+            <g style="visibility:visible;">                
                 <g>
                     <path class="mw-link" d="M1900,100L1825,100" data-id="1002" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
                     <path class="mw-link" d="M1825,100L1750,100" data-id="1003" data-type="link" data-line-id="1001" data-time="0" style="fill: none; stroke: rgb(38, 60, 150); stroke-width: 20"></path>
