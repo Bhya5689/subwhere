@@ -3,6 +3,9 @@
   <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">SubWhereMap</a>
+    <li v-for="cookie in aaa" v-bind:key="cookie">
+    <router-link :to="{ name: 'Query', query: { name: ckName(cookie), prevS: ckPrevS(cookie), nextS: ckNextS(cookie), age: ckAge(cookie) } }">{{ckName(cookie)}}</router-link>
+    </li>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +51,40 @@
 </nav>
 <router-view/>
 </template>
+<script>
 
+export default {
+  data(){
+    return {
+      aaa: []
+    }
+  },
+  mounted() {    
+    if($cookies.keys().join("\n") != null){
+      let cookies = $cookies.keys().join("\n")
+      this.aaa = cookies.split('\n')
+    }
+  },
+  methods: {
+    ckName(cookie) {
+      let cookData = $cookies.get(cookie).split(';')
+      return cookData[0]
+    },
+    ckPrevS(cookie) {
+      let cookData = $cookies.get(cookie).split(';') 
+      return cookData[1]
+    },
+    ckNextS(cookie) {
+      let cookData = $cookies.get(cookie).split(';') 
+      return cookData[2]
+    },
+    ckAge(cookie) {
+      let cookData = $cookies.get(cookie).split(';') 
+      return cookData[3]
+    }
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -71,5 +107,8 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+li {
+  list-style-type: none;
 }
 </style>

@@ -1057,8 +1057,6 @@
 import axios from 'axios'
 
 export default {
-  data () {},
-  mounted () {},
   methods: {
     clearTrain () {
       var ccc = document.querySelectorAll('g.trains')

@@ -1,6 +1,5 @@
 <template>
     <div>
-      
     <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" style="font-size: 12px; font-family: &quot;Nanum Gothic&quot;, sans-serif; font-weight: bold; letter-spacing: -1px; cursor: default; transform-origin: 0px 0px; transform: scale(0.8); fill: red; margin: 0 auto" class="mw-subway">
     <g style="visibility: visible;">
         <rect width="2500" height="1500" style="fill: rgb(255, 255, 255); opacity: 0.8;"></rect>
@@ -18,7 +17,9 @@
             <!-- <g class="mw-station" transform="translate(920, 250)"><rect width="700" height="800" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-width: 2;"></rect><text style="text-anchor: middle; font-size: 20px; fill: rgb(0, 0, 0); font-weight: 1500; display: initial;">
                 <tspan x="75" y="50"></tspan></text></g> -->
         </g>
-    </g>
+    </g>    
+    <image id='bookmark' v-on:click="bookmark()" :href="imageName" x="700" y="250"></image>
+    <image v-on:click="setData()" href="@/assets/cycle.png" x="750" y="250"></image>
     <g transform="translate(200, 300)"><rect width="300" height="40" x="-22.5" y="-5" style="rx: 15; fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200); stroke-width: 2;"></rect>
       <text style="text-anchor: start; font-size: 20px; fill: rgb(0, 0, 0); display: initial;">
       <tspan x="-5" y="20">{{upLine}}</tspan></text></g>
@@ -61,10 +62,25 @@ import axios from 'axios'
 export default {
   
   mounted() {
-    console.log(this.$route.query.name);
-    console.log(this.$route.query.age);
     this.setLineColor();
     this.setData();
+    console.log('mounted')
+    //$cookies.keys().forEach(cookie => $cookies.remove(cookie));
+    if($cookies.isKey(this.$route.query.name+this.$route.query.age)){
+      this.imageName = require('@/assets/starOn.png')
+    }else{
+      this.imageName = require('@/assets/starOff.png')
+    }
+  },
+  updated() {
+    console.log('updated')
+    this.setLineColor()
+    this.setData()
+    if($cookies.isKey(this.$route.query.name+this.$route.query.age)){
+      this.imageName = require('@/assets/starOn.png')
+    }else{
+      this.imageName = require('@/assets/starOff.png')
+    }
   },
   data () {
     return {
@@ -81,6 +97,7 @@ export default {
       downbs2: '',
       downremT1: '',
       downremT2: '',
+      imageName: require('@/assets/starOff.png')
     }
   },
   methods: {
@@ -158,7 +175,18 @@ export default {
     calcTime (t) {
       let str = parseInt(t/60) + '분 ' + t%60 + '초'
       return str
+    },
+    bookmark() {
+      if (this.imageName == require('@/assets/starOff.png')) {
+        var cookData = this.$route.query.name + ';' + this.$route.query.prevS + ';' + this.$route.query.nextS + ';' + this.$route.query.age
+        $cookies.set(this.$route.query.name+this.$route.query.age, cookData)
+        this.imageName = require('@/assets/starOn.png')
+      } else{
+        $cookies.remove(this.$route.query.name+this.$route.query.age)
+        this.imageName = require('@/assets/starOff.png')
+      }
+      this.$router.go()
     }
-    }
+  }
   }
 </script>

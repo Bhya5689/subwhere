@@ -4,5 +4,8 @@ import router from './router'
 import store from './store'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
+import VueCookies from 'vue-cookies'
 
 createApp(App).use(store).use(router).mount('#app')
+// Vue.use(VueCookies)
+// Vue.$cookies.config("7d")
