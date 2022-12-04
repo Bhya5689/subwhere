@@ -64,7 +64,7 @@ export default {
   mounted() {
     this.setLineColor();
     this.setData();
-    console.log('mounted')
+    //console.log('mounted')
     //$cookies.keys().forEach(cookie => $cookies.remove(cookie));
     if($cookies.isKey(this.$route.query.name+this.$route.query.age)){
       this.imageName = require('@/assets/starOn.png')
@@ -73,7 +73,7 @@ export default {
     }
   },
   updated() {
-    console.log('updated')
+    //console.log('updated')
     this.setLineColor()
     this.setData()
     if($cookies.isKey(this.$route.query.name+this.$route.query.age)){
@@ -145,7 +145,6 @@ export default {
     },
     setData () {
       axios.get('/api/detail/'+this.$route.query.name+'/'+this.$route.query.age, {}).then(res => {
-        console.log(res.data)
         let ct = 1
         for (let i = 0; i < res.data.length; i++){
           let str = res.data[i].ordkey          
