@@ -177,16 +177,24 @@ export default {
       return str
     },
     bookmark() {
+      let bookCt = $cookies.keys().join("\n")
+      let bookCt2 = bookCt.split('\n')
       if (this.imageName == require('@/assets/starOff.png')) {
-        var cookData = this.$route.query.name + ';' + this.$route.query.prevS + ';' + this.$route.query.nextS + ';' + this.$route.query.age
-        $cookies.set(this.$route.query.name+this.$route.query.age, cookData)
-        this.imageName = require('@/assets/starOn.png')
-      } else{
-        $cookies.remove(this.$route.query.name+this.$route.query.age)
+        if (bookCt2.length < 5) {
+          var cookData = this.$route.query.name + ';' + this.$route.query.prevS + ';' + this.$route.query.nextS + ';' + this.$route.query.age
+          $cookies.set(this.$route.query.name + this.$route.query.age, cookData)
+          this.imageName = require('@/assets/starOn.png')
+        } else{
+          alert('북마크는 5개까지!!!')
+          return
+        }
+      } else {
+        $cookies.remove(this.$route.query.name + this.$route.query.age)
         this.imageName = require('@/assets/starOff.png')
       }
       this.$router.go()
     }
+
   }
   }
 </script>
