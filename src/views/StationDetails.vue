@@ -150,19 +150,35 @@ export default {
           let str = res.data[i].ordkey          
           if (str[0] === '0' && str[1] === '1' && ct === 1){
             this.upbs1 = res.data[i].bstatnNm
+            if(res.data[i].barvlDt == '0'){
+              this.upremT1 = res.data[i].arvlMsg2
+            } else{
             this.upremT1 = this.calcTime(res.data[i].barvlDt)
+            }
             ct += 1
           }else if (str[0] === '0' && str[1] === '2' && ct === 2){
             this.upbs2 = res.data[i].bstatnNm
+            if(res.data[i].barvlDt == '0'){
+              this.upremT2 = res.data[i].arvlMsg2
+            } else{
             this.upremT2 = this.calcTime(res.data[i].barvlDt)
+            }
             ct += 1
           }else if (str[0] === '1' && str[1] === '1' && (ct === 2 || ct === 3)){
             this.downbs1 = res.data[i].bstatnNm
+            if(res.data[i].barvlDt == '0'){
+              this.downremT1 = res.data[i].arvlMsg2
+            } else{
             this.downremT1 = this.calcTime(res.data[i].barvlDt)
+            }
             ct += 1
           }else if (str[0] === '1' && str[1] === '2' && (ct === 3 || ct === 4)){
             this.downbs2 = res.data[i].bstatnNm
+            if(res.data[i].barvlDt == '0'){
+              this.downremT2 = res.data[i].arvlMsg2
+            } else{
             this.downremT2 = this.calcTime(res.data[i].barvlDt)
+            }
             ct += 1
           }
         }
