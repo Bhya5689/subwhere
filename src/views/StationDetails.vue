@@ -105,7 +105,9 @@ export default {
       var ccc = document.querySelectorAll('.mw-link')
       if(this.$route.query.age === '1001') {
         for (let i = 0; i < ccc.length; i++) {
-        ccc[i].style.stroke = 'rgb(38, 60, 150)'        
+        ccc[i].style.stroke = 'rgb(38, 60, 150)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1002') {
         for (let i = 0; i < ccc.length; i++) {
@@ -116,30 +118,44 @@ export default {
       }else if(this.$route.query.age === '1003') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(226, 143, 73)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1004') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(9, 148, 203)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1005') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(144, 49, 195)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1006') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(152, 92, 68)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1007') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(124, 137, 45)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1008') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(229, 30, 110)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }else if(this.$route.query.age === '1009') {
         for (let i = 0; i < ccc.length; i++) {
         ccc[i].style.stroke = 'rgb(206, 164, 58)'
+        this.upLine = '상행선'
+        this.downLine = '하행선'
         }
       }
     },
